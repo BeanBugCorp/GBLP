@@ -29,6 +29,7 @@
 }
 .gbl-root img{display:block;max-width:100%;}
 .gbl-root a{color:inherit;text-decoration:none;}
+html, body{margin:0;background:var(--crema)}
 html{scroll-behavior:smooth;}
 
 .sr-only{
