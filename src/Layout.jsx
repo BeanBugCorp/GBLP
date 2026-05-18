@@ -49,7 +49,7 @@ function NavBar() {
     <nav className="navbar">
       <div className="wrap navbar-inner">
         <a className="nl-portafolio" style={{ color: "var(--azul)" }} href="/#trabajo" onClick={(e) => handleNavClick(e, "trabajo")}>Portafolio</a>
-        <a className="nl-faq" style={{ color: "var(--amarillo-fuerte)" }} href="/#notas" onClick={(e) => handleNavClick(e, "notas")}>FAQ</a>
+        <a className="nl-faq" style={{ color: "var(--amarillo-fuerte)" }} href="/FAQ">FAQ</a>
         <a className="nl-servicios" style={{ color: "var(--naranja)" }} href="/#servicios" onClick={(e) => handleNavClick(e, "servicios")}>Servicios</a>
         <a className="nl-colab" style={{ color: "var(--rosa-fuerte)" }} href="/#colaboraciones" onClick={(e) => handleNavClick(e, "colaboraciones")}>Colaboraciones</a>
       </div>
