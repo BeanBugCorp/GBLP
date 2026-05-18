@@ -77,32 +77,6 @@ function Footer() {
 }
 
 /* ===========================================================================
-   DECORATIVE DOODLES (background atmosphere)
-   =========================================================================== */
-function Decorations() {
-  return (
-    <>
-      <img className="blob" src={DOODLES.scribbleYellow} alt="" aria-hidden="true"
-        style={{ width: "560px", top: "640px", left: "-200px" }} />
-      <img className="blob" src={DOODLES.scribbleOrange} alt="" aria-hidden="true"
-        style={{ width: "640px", top: "1500px", right: "-260px" }} />
-      <img className="blob" src={DOODLES.scribblePink} alt="" aria-hidden="true"
-        style={{ width: "620px", top: "3000px", left: "-280px" }} />
-      <img className="blob" src={DOODLES.scribbleBlue} alt="" aria-hidden="true"
-        style={{ width: "420px", top: "4400px", right: "-160px" }} />
-      <img className="doodle floaty" src={DOODLES.doodleA} alt="" aria-hidden="true"
-        style={{ width: "78px", top: "760px", right: "8%", "--r": "-12deg" }} />
-      <img className="doodle floaty" src={DOODLES.doodleB} alt="" aria-hidden="true"
-        style={{ width: "92px", top: "1180px", left: "6%", "--r": "10deg",
-                 animationDelay: "1.4s" }} />
-      <img className="doodle floaty" src={DOODLES.doodleC} alt="" aria-hidden="true"
-        style={{ width: "84px", top: "2280px", right: "5%", "--r": "8deg",
-                 animationDelay: ".7s" }} />
-    </>
-  );
-}
-
-/* ===========================================================================
    BACK TO TOP — floating button, fixed to the bottom-right corner
    =========================================================================== */
 function BackToTop() {
@@ -210,7 +184,6 @@ export default function Layout({ children }) {
 
   return (
     <div className="gbl-root">
-      <Decorations />
       <SiteHeader />
       <NavBar />
       {children}
