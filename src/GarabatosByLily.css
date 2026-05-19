@@ -389,7 +389,7 @@ html{scroll-behavior:smooth;}
 .faq-answer-card {
   width: 100%;
   min-height: 340px;
-  background: var(--rosa);
+  background: var(--rosa-fuerte);
   border-radius: 28px;
   display: flex;
   align-items: center;
