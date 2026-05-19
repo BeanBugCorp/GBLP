@@ -309,3 +309,99 @@ html{scroll-behavior:smooth;}
   *{animation:none!important;transition:none!important;}
   .reveal{opacity:1;transform:none;}
 }
+
+/* ===========================================================================
+   FAQ PAGE
+   =========================================================================== */
+.faq-page {
+  padding: 5rem 1.5rem 6rem;
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.faq-title {
+  font-family: var(--script);
+  color: var(--azul);
+  font-size: clamp(2.2rem, 6vw, 3.5rem);
+  font-weight: 700;
+  text-align: center;
+  margin: 0;
+  line-height: 1;
+}
+
+/* --- Selector bar --- */
+.faq-selector-wrap { width: 100%; display: flex; flex-direction: column; gap: .5rem; }
+
+.faq-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.4rem;
+  background: var(--crema);
+  border: 2.5px solid var(--naranja);
+  border-radius: 18px;
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+  cursor: pointer;
+  text-align: left;
+}
+.faq-bar.is-open { border-radius: 18px 18px 0 0; }
+.faq-bar-text { flex: 1; }
+.faq-bar-icon { font-size: 1.4rem; color: var(--naranja); flex-shrink: 0; line-height: 1; }
+
+/* --- Dropdown list --- */
+.faq-dropdown {
+  width: 100%;
+  background: #fff;
+  border: 2.5px solid var(--naranja);
+  border-top: none;
+  border-radius: 0 0 18px 18px;
+  max-height: 260px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+.faq-option {
+  padding: 1rem 1.4rem;
+  background: none;
+  border: none;
+  border-top: 1px solid rgba(239,92,33,.15);
+  font-family: var(--body);
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+  text-align: center;
+  cursor: pointer;
+  transition: background .15s;
+}
+.faq-option:first-child { border-top: none; }
+.faq-option:hover { background: rgba(239,92,33,.08); }
+.faq-option.is-active { color: var(--naranja); }
+
+/* --- Answer card --- */
+.faq-answer-card {
+  width: 100%;
+  min-height: 340px;
+  background: var(--rosa);
+  border-radius: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2.5rem;
+  box-sizing: border-box;
+}
+.faq-answer-text {
+  color: #fff;
+  font-family: var(--body);
+  font-size: 1.15rem;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.7;
+}
