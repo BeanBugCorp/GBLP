@@ -348,9 +348,9 @@ html{scroll-behavior:smooth;}
   font-family: var(--body);
   font-size: 1rem;
   font-weight: 700;
-  color: var(--dark);
+  color: var(--naranja);
   cursor: pointer;
-  text-align: left;
+  text-align: center;
 }
 .faq-bar.is-open { border-radius: 18px 18px 0 0; }
 .faq-bar-text { flex: 1; }
@@ -371,6 +371,7 @@ html{scroll-behavior:smooth;}
   overflow-y: auto;
   display: flex;
   flex-direction: column;
+  scrollbar-color: var(--rosa-fuerte) var(--crema);
 }
 
 .faq-option {
