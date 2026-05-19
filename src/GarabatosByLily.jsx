@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Layout from "./Layout";
 import { CONTENT } from "./content";
+import "./styles/GarabatosByLily.css"
 
 /* ============================================================================
    GARABATOS BY LILY — Landing Page
