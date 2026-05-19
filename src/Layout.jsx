@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import "./styles/GarabatosByLily.css";
+import "./styles/Layout.css";
 import logoAzul from "./assets/logo-azul.png";
 import monitaAzul from "./assets/monita-azul.png";
 import { CONTENT, DOODLES } from "./content";
