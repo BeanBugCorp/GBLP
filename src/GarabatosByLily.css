@@ -404,4 +404,5 @@ html{scroll-behavior:smooth;}
   font-weight: 700;
   text-align: center;
   line-height: 1.7;
+  white-space: pre-line;
 }

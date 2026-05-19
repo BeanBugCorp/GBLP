@@ -16,7 +16,7 @@ const faqs = [
   },
   {
     q: "¿Pintas murales todo el año?",
-    a: "No.\n\nLa agenda de murales está abierta de marzo a agosto.De septiembre a febrero me enfoco completamente en garabatos en ventanas, ya que es temporada alta.\n\nSi tienes un mural en mente, lo ideal es planearlo con anticipación ✨.",
+    a: "No.\n\nLa agenda de murales está abierta de marzo a agosto. De septiembre a febrero me enfoco completamente en garabatos en ventanas, ya que es temporada alta.\n\nSi tienes un mural en mente, lo ideal es planearlo con anticipación ✨.",
   },
   {
     q: "¿Cuánto tiempo tardas en garabatear?",
@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "¿Cómo cuido mi ventana decorada?",
-    a: "Cada diseño está hecho con mucho detalle para que luzca increíble el mayor tiempo posible ✨.\n\nPara conservarlo en perfecto estado:\n2. Si necesitas limpiar alrededor, hazlo con un trapo seco y con cuidado.\n3. Puedes limpiar el exterior del vidrio sin problema.\n\n💫 Con estos cuidados, tus garabatos se mantendrán vibrantes y llenos de vida.",
+    a: "Cada diseño está hecho con mucho detalle para que luzca increíble el mayor tiempo posible ✨.\n\nPara conservarlo en perfecto estado:\n1. Evita usar agua o limpiadores directamente sobre la pintura.\n2. Si necesitas limpiar alrededor, hazlo con un trapo seco y con cuidado.\n3. Puedes limpiar el exterior del vidrio sin problema.\n\n💫 Con estos cuidados, tus garabatos se mantendrán vibrantes y llenos de vida.",
   }
 ]
 
