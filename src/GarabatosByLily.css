@@ -333,7 +333,7 @@ html{scroll-behavior:smooth;}
 }
 
 /* --- Selector bar --- */
-.faq-selector-wrap { width: 100%; display: flex; flex-direction: column; gap: .5rem; }
+.faq-selector-wrap { width: 100%; display: flex; flex-direction: column; }
 
 .faq-bar {
   width: 100%;
@@ -359,15 +359,20 @@ html{scroll-behavior:smooth;}
 /* --- Dropdown list --- */
 .faq-dropdown {
   width: 100%;
-  background: #fff;
+  background: var(--crema);
   border: 2.5px solid var(--naranja);
   border-top: none;
   border-radius: 0 0 18px 18px;
+  overflow: hidden;
+}
+
+.faq-dropdown-inner {
   max-height: 260px;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
+
 .faq-option {
   padding: 1rem 1.4rem;
   background: none;

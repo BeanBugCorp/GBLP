@@ -58,15 +58,17 @@ export default function FAQ() {
 
           {open && (
             <div className="faq-dropdown">
-              {faqs.map((faq, i) => (
-                <button
-                  key={i}
-                  className={`faq-option${i === selected ? " is-active" : ""}`}
-                  onClick={() => { setSelected(i); setOpen(false); }}
-                >
-                  {faq.q}
-                </button>
-              ))}
+              <div className="faq-dropdown-inner">
+                {faqs.map((faq, i) => (
+                  <button
+                    key={i}
+                    className={`faq-option${i === selected ? " is-active" : ""}`}
+                    onClick={() => { setSelected(i); setOpen(false); }}
+                  >
+                    {faq.q}
+                  </button>
+                ))}
+              </div>
             </div>
           )}
         </div>
