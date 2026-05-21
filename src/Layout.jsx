@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import "./styles/Layout.css";
 import logoAzul from "./assets/logo-azul.png";
 import monitaAzul from "./assets/monita-azul.png";
-import { CONTENT, DOODLES } from "./content";
+import { CONTENT } from "./content";
 
 function scrollToId(e, id) {
   e.preventDefault();

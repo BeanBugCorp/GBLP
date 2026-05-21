@@ -107,7 +107,7 @@ function ServiceCard({ service, index }) {
     if (n < 2) return;
     const t = setInterval(
       () => setI((p) => (p + 1) % n),
-      3400 + index * 500 // slight offset so cards don't change in sync
+      3400 + index * 500 
     );
     return () => clearInterval(t);
   }, [n, index]);
