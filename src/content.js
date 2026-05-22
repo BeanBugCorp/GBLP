@@ -147,6 +147,95 @@ export const CONTENT = {
   ],
 };
 
+/* ===========================================================================
+   SERVICES PAGE — section config & rich-text content
+   =========================================================================== */
+export const SERVICE_IDS = ["window", "murales", "activaciones"];
+
+export const SERVICE_META = {
+  window:       { color: "#ef5c21", bg: "#fff7f3", emoji: "🪟" },
+  murales:      { color: "#47b1b1", bg: "#f3fbfb", emoji: "🖼️" },
+  activaciones: { color: "#e9619e", bg: "#fff3f7", emoji: "🎨" },
+};
+
+export const SERVICES_DETAIL = {
+  window: {
+    intro: "Si quieres unas ventanas llamativas, originales y llenas de vida que hagan que cualquier persona voltee a ver tu local… este servicio es para ti ✨",
+    sections: [
+      {
+        title: "Ideal para:",
+        items: [
+          "Temporadas — Mantén tu espacio actualizado con las festividades más importantes del año",
+          "Promociones o lanzamientos — Diseños completamente adaptados a tu marca y objetivos",
+          "Atemporal — Intervenciones que pueden quedarse de forma indefinida dando vida a tus ventanas",
+        ],
+      },
+      {
+        title: "Beneficios:",
+        items: [
+          "Atrae miradas y aumenta el tráfico peatonal",
+          "Refuerza tu identidad visual",
+          "Diseños 100% personalizados y versátiles",
+        ],
+      },
+    ],
+  },
+
+  murales: {
+    intro: "Intervenciones artísticas que transforman espacios a través de garabatos, comunicando la esencia de tu marca de forma única y memorable 🎨",
+    sections: [
+      {
+        title: "Ideal para:",
+        items: [
+          "Negocios, oficinas o espacios comerciales — Refuerza el sentido de pertenencia y la identidad de tu marca",
+          "Selfie spots — Convierte una pared en una experiencia visual que invite a compartir en redes",
+        ],
+      },
+      {
+        title: "Beneficios:",
+        items: [
+          "Alto impacto visual",
+          "Diseño único que refleje la personalidad de tu marca",
+          "Acabados profesionales y durables",
+        ],
+      },
+    ],
+  },
+
+  activaciones: {
+    intro: "Experiencias en vivo que conectan emocionalmente con tu audiencia y convierten tu marca en algo inolvidable ✨",
+    sections: [
+      {
+        title: "¿En qué consiste?",
+        text: "Personalizo productos en tiempo real, creando piezas únicas para que cada cliente se lleve algo especial con su compra.",
+      },
+      {
+        title: "Ideal para:",
+        items: [
+          "Lanzamientos de producto — Genera una experiencia memorable desde el primer momento",
+          "Festividades — Impulsa tus ventas con un valor agregado creativo",
+          "Aniversarios — Un detalle especial para consentir y fidelizar a tus clientes",
+        ],
+      },
+      {
+        title: "Beneficios:",
+        items: [
+          "Genera engagement y reconocimiento de marca",
+          "Experiencia visual atractiva y compartible en redes",
+          "Diseños personalizados según cada ocasión",
+        ],
+      },
+      {
+        title: "Ejemplos:",
+        items: [
+          "Bolsas, empaques y papelería",
+          "Perfumes, estuches y regalos promocionales",
+        ],
+      },
+    ],
+  },
+};
+
 // Decorative doodle images used as scattered background accents.
 export const DOODLES = {
   scribbleYellow:

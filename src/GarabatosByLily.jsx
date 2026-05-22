@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Layout from "./Layout";
 import { CONTENT } from "./content";
 import "./styles/GarabatosByLily.css"
+import "./styles/Services.css"
 
 /* ============================================================================
    GARABATOS BY LILY — Landing Page
@@ -99,7 +100,9 @@ function Bio() {
 /* ===========================================================================
    SERVICIOS
    =========================================================================== */
-function ServiceCard({ service, index }) {
+const SERVICE_IDS = ["window", "murales", "activaciones"];
+
+function ServiceCard({ service, index, svcId }) {
   const [i, setI] = useState(0);
   const n = service.images.length;
 
@@ -107,31 +110,33 @@ function ServiceCard({ service, index }) {
     if (n < 2) return;
     const t = setInterval(
       () => setI((p) => (p + 1) % n),
-      3400 + index * 500 
+      3400 + index * 500
     );
     return () => clearInterval(t);
   }, [n, index]);
 
   return (
-    <article className="serv-card reveal" style={{ "--d": index }}>
-      <div className="serv-imgwrap">
-        {service.images.map((src, idx) => (
-          <img key={idx} className={idx === i ? "on" : ""} src={src}
-            alt={service.name} loading="lazy" />
-        ))}
-        {n > 1 && (
-          <div className="serv-pips">
-            {service.images.map((_, idx) => (
-              <span key={idx} className={idx === i ? "on" : ""} />
-            ))}
-          </div>
-        )}
-      </div>
-      <div className="serv-label">
-        <h3>{service.name}</h3>
-        <p>{service.desc}</p>
-      </div>
-    </article>
+    <a href={`/servicios#section-${svcId}`} className="serv-card-link">
+      <article className="serv-card reveal" style={{ "--d": index }}>
+        <div className="serv-imgwrap">
+          {service.images.map((src, idx) => (
+            <img key={idx} className={idx === i ? "on" : ""} src={src}
+              alt={service.name} loading="lazy" />
+          ))}
+          {n > 1 && (
+            <div className="serv-pips">
+              {service.images.map((_, idx) => (
+                <span key={idx} className={idx === i ? "on" : ""} />
+              ))}
+            </div>
+          )}
+        </div>
+        <div className="serv-label">
+          <h3>{service.name}</h3>
+          <p>{service.desc}</p>
+        </div>
+      </article>
+    </a>
   );
 }
 
@@ -144,7 +149,7 @@ function Servicios() {
         </div>
         <div className="serv-grid">
           {CONTENT.servicios.map((s, idx) => (
-            <ServiceCard key={s.name} service={s} index={idx} />
+            <ServiceCard key={s.name} service={s} index={idx} svcId={SERVICE_IDS[idx]} />
           ))}
         </div>
       </div>
