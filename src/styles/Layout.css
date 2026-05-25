@@ -6,7 +6,7 @@
   transition:box-shadow .3s ease, padding .3s ease;
   padding:.5rem 0;
 }
-/*.site-header.scrolled{box-shadow:0 6px 24px -12px rgba(239,92,33,.35);}*/
+.site-header.scrolled{box-shadow:0 6px 24px -12px rgba(239,92,33,.35);}
 .site-logo{display:block;line-height:0;transition:transform .25s ease;}
 .site-logo:hover{transform:scale(1.04) rotate(-1deg);}
 .site-logo img{height:clamp(40px,8vw,64px);width:auto;}
