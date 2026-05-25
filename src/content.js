@@ -5,7 +5,13 @@ export const CONTENT = {
     name: "Garabatos by Lily",
     instagram: "https://www.instagram.com/garabatosbylily/", // <-- edit if needed
     tiktok: "https://www.tiktok.com/@garabatosbylily",
-    email: "mailto:garabatosbylily@gmail.com", // <-- replace with real email
+    email: "mailto:garabatosbylily@gmail.com",
+    cotizarHref:
+      "mailto:garabatosbylily@gmail.com" +
+      "?subject=" + encodeURIComponent("Cotización") +
+      "&body=" + encodeURIComponent(
+        "Hola, me gustaría contactarte para cotizar!\nNombre: \nTelefono: \nCorreo: "
+      ),
     whatsapp: "https://wa.me/521XXXXXXXXXX",   // <-- replace with real number
   },
 
