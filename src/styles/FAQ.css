@@ -62,11 +62,11 @@
 
 /* --- Chevron icon --- */
 .faq-chevron {
-  font-size: 1.2rem;
+  font-size: 2rem;
   color: var(--azul);
   flex-shrink: 0;
   display: inline-block;
-  transition: transform 0.5s ease;
+  transition: transform 1s ease;
 }
 .faq-item.is-open .faq-chevron {
   transform: rotate(180deg);
@@ -76,11 +76,12 @@
 .faq-answer {
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.35s ease;
+  transition: max-height 1s ease, opacity 0.25s ease;
   background: rgba(239, 91, 33, 0.021);
 }
 .faq-item.is-open .faq-answer {
   max-height: 600px;
+  opacity: 1;
 }
 
 .faq-answer-text {
@@ -92,4 +93,9 @@
   font-weight: 500;
   line-height: 1.7;
   white-space: pre-line;
+  transition: transform 1s ease 0.05s;
+}
+
+.faq-item.is-open .faq-answer-text{
+  transform: translateY(0);
 }
