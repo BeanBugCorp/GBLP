@@ -152,6 +152,7 @@
 /* ===== CTA ===== */
 .svc-cta {
   padding-top: clamp(1rem, 3vw, 1.75rem);
+  color: var(--crema);
 }
 
 /* ===== Right: carousel ===== */
