@@ -36,46 +36,34 @@ function parseAnswer(text) {
   );
 }
 
-
 export default function FAQ() {
-  const [selected, setSelected] = useState(0);
-  const [open, setOpen] = useState(false);
+  const [openIndex, setOpenIndex] = useState(null);
+
+  function toggle(i) {
+    setOpenIndex(openIndex === i ? null : i);
+  }
 
   return (
     <Layout>
-
       <main className="faq-page">
         <h1 className="faq-title">Preguntas Frecuentes</h1>
 
-        <div className="faq-selector-wrap">
-          <button
-            className={`faq-bar${open ? " is-open" : ""}`}
-            onClick={() => setOpen((o) => !o)}
-            aria-expanded={open}
-          >
-            <span className="faq-bar-text">{faqs[selected].q}</span>
-            <span className="faq-bar-icon" aria-hidden="true">{open ? "✕" : "≡"}</span>
-          </button>
-
-          {open && (
-            <div className="faq-dropdown">
-              <div className="faq-dropdown-inner">
-                {faqs.map((faq, i) => (
-                  <button
-                    key={i}
-                    className={`faq-option${i === selected ? " is-active" : ""}`}
-                    onClick={() => { setSelected(i); setOpen(false); }}
-                  >
-                    {faq.q}
-                  </button>
-                ))}
+        <div className="faq-list">
+          {faqs.map((faq, i) => (
+            <div key={i} className={`faq-item${openIndex === i ? ' is-open' : ''}`}>
+              <button
+                className="faq-question"
+                onClick={() => toggle(i)}
+                aria-expanded={openIndex === i}
+              >
+                <span>{faq.q}</span>
+                <span className="faq-chevron" aria-hidden="true">▾</span>
+              </button>
+              <div className="faq-answer">
+                <p className="faq-answer-text">{parseAnswer(faq.a)}</p>
               </div>
             </div>
-          )}
-        </div>
-
-        <div className="faq-answer-card">
-          <p className="faq-answer-text"> {parseAnswer(faqs[selected].a)} </p>
+          ))}
         </div>
       </main>
     </Layout>
