@@ -165,6 +165,9 @@ function ContactFab() {
    LAYOUT WRAPPER — wraps every page with the shared chrome
    =========================================================================== */
 export default function Layout({ children }) {
+  const location = useLocation();
+  const isHome = location.pathname === "/";
+
   useEffect(() => {
     const els = document.querySelectorAll(".reveal");
     const io = new IntersectionObserver(
@@ -188,7 +191,7 @@ export default function Layout({ children }) {
       <NavBar />
       {children}
       <Footer />
-      <BackToTop />
+      {isHome && <BackToTop />}
       <ContactFab />
     </div>
   );
