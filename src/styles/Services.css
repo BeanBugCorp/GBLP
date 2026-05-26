@@ -152,6 +152,7 @@
 /* ===== CTA ===== */
 .svc-cta {
   padding-top: clamp(1rem, 3vw, 1.75rem);
+  color: var(--crema);
 }
 
 /* ===== Right: carousel ===== */
@@ -319,4 +320,55 @@
   display: block;
   text-decoration: none;
   color: inherit;
+}
+
+/* ===== Bottom CTA ===== */
+.svc-otros {
+  padding: clamp(2rem, 5vw, 3rem) 0;
+  background: var(--crema);
+  text-align: center;
+}
+
+.svc-otros-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.svc-otros-title {
+  font-family: var(--script);
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  color: var(--azul);
+  margin: 0;
+  line-height: 1.2;
+}
+
+.svc-otros-body {
+  font-family: var(--body);
+  font-size: clamp(1rem, 2vw, 1.15rem);
+  color: var(--dark);
+  line-height: 1.7;
+  margin: 0;
+  max-width: 560px;
+}
+
+.svc-otros .svc-otros-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 16px 48px;
+  border-radius: 50px;
+  background: var(--azul);
+  font-family: var(--body);
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 4px 16px rgba(71, 177, 177, 0.35);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  color: var(--crema);
+}
+
+.svc-otros .svc-otros-btn:hover {
+  transform: translateY(-3px) scale(1.03);
+  box-shadow: 0 8px 24px rgba(71, 177, 177, 0.45);
 }

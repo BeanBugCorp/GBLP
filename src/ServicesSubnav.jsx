@@ -58,7 +58,8 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
         alignItems: "center",
         gap: "20px",
         padding: "28px 16px 20px",
-        background: "#fff6e6",
+        background: "rgba(255, 246, 230, 0.98)",
+        backdropFilter: "blur(10px)",
       }}
     >
       <div
