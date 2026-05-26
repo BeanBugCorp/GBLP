@@ -5,7 +5,13 @@ export const CONTENT = {
     name: "Garabatos by Lily",
     instagram: "https://www.instagram.com/garabatosbylily/", // <-- edit if needed
     tiktok: "https://www.tiktok.com/@garabatosbylily",
-    email: "mailto:garabatosbylily@gmail.com", // <-- replace with real email
+    email: "mailto:garabatosbylily@gmail.com",
+    cotizarHref:
+      "mailto:garabatosbylily@gmail.com" +
+      "?subject=" + encodeURIComponent("Cotización") +
+      "&body=" + encodeURIComponent(
+        "Hola, me gustaría contactarte para cotizar!\nNombre: \nTelefono: \nCorreo: "
+      ),
     whatsapp: "https://wa.me/521XXXXXXXXXX",   // <-- replace with real number
   },
 
@@ -122,6 +128,20 @@ export const CONTENT = {
     "https://iconlogovector.com/uploads/images/2025/12/lg-692f6a046edc7-Jo-Malone.webp",
     "https://res.cloudinary.com/devex/image/fetch/ar_1:1,b_transparent,c_pad,f_auto,q_auto,w_160/https://neo-assets.s3.amazonaws.com/assets/0141/0787/e81e13bf9d2ad3c0160332f2e8631bcd.png",
     "https://images.seeklogo.com/logo-png/13/2/telvista-logo-png_seeklogo-137322.png",
+  ],
+
+  // --- Collabs gallery page --------------------------------------------------
+  collabs: [
+    { name: "Adidas",      desc: "Activación de marca" },
+    { name: "Marriott",    desc: "Activación corporativa" },
+    { name: "MAC",         desc: "Activación de marca" },
+    { name: "Pollo Loco",  desc: "Activación de marca" },
+    { name: "Clinique",    desc: "Activación de marca" },
+    { name: "Ferragamo",   desc: "Activación de lujo" },
+    { name: "Jo Malone",   desc: "Activación de lujo" },
+    { name: "CFE",         desc: "Mural corporativo" },
+    { name: "Lululemon",   desc: "Activación de marca" },
+    { name: "Telvista",    desc: "Mural corporativo" },
   ],
 
   // --- Notas Importantes (press / links) ------------------------------------
