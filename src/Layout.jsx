@@ -50,7 +50,7 @@ function NavBar() {
       <div className="wrap navbar-inner">
         <a className="nl-servicios" style={{ color: "var(--azul)" }} href="/servicios">Servicios</a>
         <a className="nl-portafolio" style={{ color: "var(--amarillo-fuerte)" }} href="/#trabajo" onClick={(e) => handleNavClick(e, "trabajo")}>Portafolio</a>
-        <a className="nl-colab" style={{ color: "var(--naranja)" }} href="/#colaboraciones" onClick={(e) => handleNavClick(e, "colaboraciones")}>Colaboraciones</a>
+        <a className="nl-colab" style={{ color: "var(--naranja)" }} href="/colaboraciones">Colaboraciones</a>
         <a className="nl-faq" style={{ color: "var(--rosa-fuerte)" }} href="/FAQ">FAQ</a>
       </div>
     </nav>

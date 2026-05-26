@@ -130,6 +130,20 @@ export const CONTENT = {
     "https://images.seeklogo.com/logo-png/13/2/telvista-logo-png_seeklogo-137322.png",
   ],
 
+  // --- Collabs gallery page --------------------------------------------------
+  collabs: [
+    { name: "Adidas",      desc: "Activación de marca" },
+    { name: "Marriott",    desc: "Activación corporativa" },
+    { name: "MAC",         desc: "Activación de marca" },
+    { name: "Pollo Loco",  desc: "Activación de marca" },
+    { name: "Clinique",    desc: "Activación de marca" },
+    { name: "Ferragamo",   desc: "Activación de lujo" },
+    { name: "Jo Malone",   desc: "Activación de lujo" },
+    { name: "CFE",         desc: "Mural corporativo" },
+    { name: "Lululemon",   desc: "Activación de marca" },
+    { name: "Telvista",    desc: "Mural corporativo" },
+  ],
+
   // --- Notas Importantes (press / links) ------------------------------------
   notas: [
     {
