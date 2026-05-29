@@ -1,3 +1,89 @@
+import lilyCover from "./assets/branding/lilypics/lilycover.JPG";
+import lily203 from "./assets/branding/lilypics/IMG_0203.JPG";
+import lily207 from "./assets/branding/lilypics/IMG_0207.JPG";
+import lily1611 from "./assets/branding/lilypics/IMG_1611.JPG";
+import lily1618 from "./assets/branding/lilypics/IMG_1618.JPG";
+import lily1621 from "./assets/branding/lilypics/IMG_1621.JPG";
+
+// portafolio — valentin
+import pv1 from "./assets/portafolio/valentin/v1.jpeg";
+import pv2 from "./assets/portafolio/valentin/v2.jpeg";
+import pv3 from "./assets/portafolio/valentin/v3.jpeg";
+import pv4 from "./assets/portafolio/valentin/v4.jpeg";
+import pv5 from "./assets/portafolio/valentin/v5.jpeg";
+import pv6 from "./assets/portafolio/valentin/v6.jpeg";
+import pv7 from "./assets/portafolio/valentin/v7.jpeg";
+import pv8 from "./assets/portafolio/valentin/v8.jpeg";
+import pv9 from "./assets/portafolio/valentin/v9.jpeg";
+import pv10 from "./assets/portafolio/valentin/v10.jpeg";
+import pv11 from "./assets/portafolio/valentin/v11.jpeg";
+import pv12 from "./assets/portafolio/valentin/v12.jpeg";
+// portafolio — madres
+import pm1 from "./assets/portafolio/madres/m1.jpeg";
+import pm2 from "./assets/portafolio/madres/m2.jpeg";
+import pm3 from "./assets/portafolio/madres/m3.jpeg";
+import pm4 from "./assets/portafolio/madres/m4.jpeg";
+import pm5 from "./assets/portafolio/madres/m5.jpeg";
+import pm6 from "./assets/portafolio/madres/m6.jpeg";
+import pm7 from "./assets/portafolio/madres/m7.jpeg";
+import pm8 from "./assets/portafolio/madres/m8.jpeg";
+import pm9 from "./assets/portafolio/madres/m9.jpeg";
+import pm10 from "./assets/portafolio/madres/m10.jpeg";
+import pm11 from "./assets/portafolio/madres/m11.jpeg";
+import pm12 from "./assets/portafolio/madres/m12.jpeg";
+// portafolio — halloween
+import ph1 from "./assets/portafolio/halloween/h1.jpeg";
+import ph2 from "./assets/portafolio/halloween/h2.jpeg";
+import ph3 from "./assets/portafolio/halloween/h3.jpeg";
+import ph4 from "./assets/portafolio/halloween/h4.jpeg";
+import ph5 from "./assets/portafolio/halloween/h5.jpeg";
+import ph6 from "./assets/portafolio/halloween/h6.jpeg";
+import ph7 from "./assets/portafolio/halloween/h7.jpeg";
+import ph8 from "./assets/portafolio/halloween/h8.jpeg";
+import ph9 from "./assets/portafolio/halloween/h9.jpeg";
+import ph10 from "./assets/portafolio/halloween/h10.jpeg";
+import ph11 from "./assets/portafolio/halloween/h11.jpeg";
+import ph12 from "./assets/portafolio/halloween/h12.jpeg";
+// portafolio — thanks
+import pt1 from "./assets/portafolio/thanks/t1.jpeg";
+import pt2 from "./assets/portafolio/thanks/t2.jpeg";
+import pt3 from "./assets/portafolio/thanks/t3.jpeg";
+import pt4 from "./assets/portafolio/thanks/t4.jpeg";
+import pt5 from "./assets/portafolio/thanks/t5.jpeg";
+import pt6 from "./assets/portafolio/thanks/t6.jpeg";
+import pt7 from "./assets/portafolio/thanks/t7.jpeg";
+import pt8 from "./assets/portafolio/thanks/t8.jpeg";
+import pt9 from "./assets/portafolio/thanks/t9.jpeg";
+import pt10 from "./assets/portafolio/thanks/t10.jpeg";
+import pt11 from "./assets/portafolio/thanks/t11.jpeg";
+import pt12 from "./assets/portafolio/thanks/t12.jpeg";
+// portafolio — xmas
+import px1 from "./assets/portafolio/xmas/x1.jpeg";
+import px2 from "./assets/portafolio/xmas/x2.jpeg";
+import px3 from "./assets/portafolio/xmas/x3.jpeg";
+import px4 from "./assets/portafolio/xmas/x4.jpeg";
+import px5 from "./assets/portafolio/xmas/x5.jpeg";
+import px6 from "./assets/portafolio/xmas/x6.jpeg";
+import px7 from "./assets/portafolio/xmas/x7.jpeg";
+import px8 from "./assets/portafolio/xmas/x8.jpeg";
+import px9 from "./assets/portafolio/xmas/x9.jpeg";
+import px10 from "./assets/portafolio/xmas/x10.jpeg";
+import px11 from "./assets/portafolio/xmas/x11.jpeg";
+import px12 from "./assets/portafolio/xmas/x12.jpeg";
+// portafolio — atemp
+import pa1 from "./assets/portafolio/atemp/p1.jpg";
+import pa2 from "./assets/portafolio/atemp/p2.jpg";
+import pa3 from "./assets/portafolio/atemp/p3.jpg";
+import pa4 from "./assets/portafolio/atemp/p4.jpg";
+import pa5 from "./assets/portafolio/atemp/p5.jpg";
+import pa6 from "./assets/portafolio/atemp/p6.jpg";
+import pa7 from "./assets/portafolio/atemp/p7.jpg";
+import pa8 from "./assets/portafolio/atemp/p8.jpg";
+import pa9 from "./assets/portafolio/atemp/p9.jpg";
+import pa10 from "./assets/portafolio/atemp/p10.jpg";
+import pa11 from "./assets/portafolio/atemp/p11.jpg";
+import pa12 from "./assets/portafolio/atemp/p12.jpg";
+
 export const CONTENT = {
   // --- Brand / contact -------------------------------------------------------
   brand: {
@@ -17,18 +103,18 @@ export const CONTENT = {
 
   // --- Hero banner -----------------------------------------------------------
   hero: {
-    banner:
-      "https://www.figma.com/api/mcp/asset/906517bc-4114-4a20-b5f3-1b16cd7c908d",
+    banner: lilyCover,
   },
 
   // --- Bio section -----------------------------------------------------------
   bio: {
     // Carousel photos (top of the bio block). Add/remove freely.
     photos: [
-      "https://www.figma.com/api/mcp/asset/02cd91b4-92bc-45de-87b0-6d0d6ee472df",
-      "https://www.figma.com/api/mcp/asset/5e43d3a7-c39f-457d-b498-fee005606c17",
-      "https://www.figma.com/api/mcp/asset/fff644f0-bade-4fed-ba43-a8e62cea0e9a",
-      "https://www.figma.com/api/mcp/asset/f248f120-a1c0-42f2-8867-c960ba830a67",
+      lily203,
+      lily207,
+      lily1611,
+      lily1618,
+      lily1621,
     ],
   },
 
@@ -255,6 +341,52 @@ export const SERVICES_DETAIL = {
     ],
   },
 };
+
+// Portafolio page seasonal collections — 12 photos each
+export const PORTAFOLIO_SEASONS = [
+  {
+    id: "valentin",
+    emoji: "💕",
+    name: "San Valentín",
+    accent: "#e8a0b8",
+    photos: [pv1, pv2, pv3, pv4, pv5, pv6, pv7, pv8, pv9, pv10, pv11, pv12],
+  },
+  {
+    id: "madres",
+    emoji: "🌸",
+    name: "Día de Madres",
+    accent: "#c47fc4",
+    photos: [pm1, pm2, pm3, pm4, pm5, pm6, pm7, pm8, pm9, pm10, pm11, pm12],
+  },
+  {
+    id: "halloween",
+    emoji: "🎃",
+    name: "Halloween",
+    accent: "#cc7a3b",
+    photos: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10, ph11, ph12],
+  },
+  {
+    id: "thanks",
+    emoji: "🍂",
+    name: "Thanksgiving",
+    accent: "#d4944a",
+    photos: [pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12],
+  },
+  {
+    id: "xmas",
+    emoji: "🎄",
+    name: "Navidad",
+    accent: "#4ba89c",
+    photos: [px1, px2, px3, px4, px5, px6, px7, px8, px9, px10, px11, px12],
+  },
+  {
+    id: "atemp",
+    emoji: "✨",
+    name: "Atemporal",
+    accent: "#7fa8c9",
+    photos: [pa1, pa2, pa3, pa4, pa5, pa6, pa7, pa8, pa9, pa10, pa11, pa12],
+  },
+];
 
 // Decorative doodle images used as scattered background accents.
 export const DOODLES = {

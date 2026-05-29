@@ -204,13 +204,15 @@ function Colaboraciones() {
           </h2>
         </div>
       </div>
-      <div className="marquee reveal">
-        <div className="marquee-track">
-          {logos.map((src, idx) => (
-            <img key={idx} src={src} alt="Marca colaboradora" loading="lazy" />
-          ))}
+      <a href="/colaboraciones" aria-label="Ver colaboraciones" style={{ display: "block", textDecoration: "none" }}>
+        <div className="marquee reveal">
+          <div className="marquee-track">
+            {logos.map((src, idx) => (
+              <img key={idx} src={src} alt="Marca colaboradora" loading="lazy" />
+            ))}
+          </div>
         </div>
-      </div>
+      </a>
     </section>
   );
 }
