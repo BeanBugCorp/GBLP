@@ -116,7 +116,7 @@
   padding: 7px 7px 12px;
   border: none;
   cursor: pointer;
-  background: color-mix(in srgb, var(--season-accent) 22%, #fffdf8);
+  background: color-mix(in srgb, var(--season-accent) 62%, #fffdf8);
   border-radius: 6px;
   transform: rotate(var(--tilt, 0deg));
   box-shadow: 0 6px 16px rgba(120, 90, 50, 0.14), 0 1px 0 rgba(120, 90, 50, 0.05);
@@ -164,7 +164,7 @@
   max-width: min(94vw, 1100px);
   max-height: 88vh;
   border-radius: 8px;
-  background: #fffdf8;
+  background: color-mix(in srgb, var(--season-accent) 62%, #fffdf8);
   padding: 10px;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
   cursor: default;

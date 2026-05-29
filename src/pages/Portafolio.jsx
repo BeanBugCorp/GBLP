@@ -86,7 +86,7 @@ export default function Portafolio() {
       </div>
 
       {lightbox && (
-        <div className="pg-backdrop" onClick={closeLightbox}>
+        <div className="pg-backdrop" onClick={closeLightbox} style={{ "--season-accent": season.accent }}>
           <button className="pg-close" onClick={closeLightbox} aria-label="Cerrar">✕</button>
           <img
             className="pg-full"
