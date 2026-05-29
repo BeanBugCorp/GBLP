@@ -1,3 +1,10 @@
+import lilyCover from "./assets/branding/lilypics/lilycover.JPG";
+import lily203 from "./assets/branding/lilypics/IMG_0203.JPG";
+import lily207 from "./assets/branding/lilypics/IMG_0207.JPG";
+import lily1611 from "./assets/branding/lilypics/IMG_1611.JPG";
+import lily1618 from "./assets/branding/lilypics/IMG_1618.JPG";
+import lily1621 from "./assets/branding/lilypics/IMG_1621.JPG";
+
 export const CONTENT = {
   // --- Brand / contact -------------------------------------------------------
   brand: {
@@ -17,18 +24,18 @@ export const CONTENT = {
 
   // --- Hero banner -----------------------------------------------------------
   hero: {
-    banner:
-      "https://www.figma.com/api/mcp/asset/906517bc-4114-4a20-b5f3-1b16cd7c908d",
+    banner: lilyCover,
   },
 
   // --- Bio section -----------------------------------------------------------
   bio: {
     // Carousel photos (top of the bio block). Add/remove freely.
     photos: [
-      "https://www.figma.com/api/mcp/asset/02cd91b4-92bc-45de-87b0-6d0d6ee472df",
-      "https://www.figma.com/api/mcp/asset/5e43d3a7-c39f-457d-b498-fee005606c17",
-      "https://www.figma.com/api/mcp/asset/fff644f0-bade-4fed-ba43-a8e62cea0e9a",
-      "https://www.figma.com/api/mcp/asset/f248f120-a1c0-42f2-8867-c960ba830a67",
+      lily203,
+      lily207,
+      lily1611,
+      lily1618,
+      lily1621,
     ],
   },
 
