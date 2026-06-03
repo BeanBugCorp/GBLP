@@ -10,7 +10,9 @@ import lily1621 from "./assets/branding/lilypics/IMG_1621.JPG";
 import hsg1 from "./assets/home/Servicios_Window1.jpeg";
 import hsg2 from "./assets/home/Servicios_Window2.jpeg";
 import hsg3 from "./assets/home/Servicios_Window3.jpeg";
-import hs2 from "./assets/home/Servicios_Mural.jpeg";
+import hsm1 from "./assets/home/Servicios_Mural1.jpeg";
+import hsm2 from "./assets/home/Servicios_Mural2.jpeg";
+import hsm3 from "./assets/home/Servicios_Mural3.jpg";
 import hsa1 from "./assets/home/Servicios_Activacion1.jpeg";
 import hsa2 from "./assets/home/Servicios_Activacion2.jpeg";
 import hsa3 from "./assets/home/Servicios_Activacion3.jpeg";
@@ -146,9 +148,9 @@ export const CONTENT = {
       name: "Murales",
       desc: "Transformo paredes en piezas llenas de color y personalidad.",
       images: [
-        hs2,
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuMjg4NS0xNS81MDA3MzI4NzVfMTgwNjQ2MDk3NzUxMDQwOTBfMTUwNjUwNTUyMDg5MDU3OTk1NF9uLmpwZz9zZT0tMSZzdHA9ZHN0LWpwZWdyX2UzNV9wNjQweDY0MF9zaDIuMDhfdHQ2JmVmZz1leUoyWlc1amIyUmxYM1JoWnlJNkltbHRZV2RsWDNWeWJHZGxiaTR4TkRRd0xtaGtjaTV5WldkMWJHRnlYM0JvYjNSdkxtTXlJbjAmX25jX2h0PXNjb250ZW50LXNqYzMtMS5jZG5pbnN0YWdyYW0uY29tJl9uY19jYXQ9MTEwJl9uY19vYz1RNmNaMmdFcm1BYjVFTDdWOTV5X2x0VXM2YXhaaGFLTFRtNnIwMURublh6aDRsRFRmUlUzTElVSGw2RUdSbWhTcEt5VldVZyZfbmNfb2hjPUk5THBzbk9fMjNRUTdrTnZ3R0dITWtiJl9uY19naWQ9N1RobHJRYXNrVmdLWlFhZnBsR180QSZlZG09QVBzMTdDVUJBQUFBJmNjYj03LTUmb2g9MDBfQWY0RnVtbm05eTlxS2JxVkdfNXl2ZTVROEhCLURsQnpUbS1PMXZfNjVCVDZZQSZvZT02QTEwM0JBQyZfbmNfc2lkPTEwZDEzYiIsImZpbGVuYW1lIjoiU25hcEluc3RhLnRvXzUwMDczMjg3NV8xODA2NDYwOTc3NTEwNDA5MF8xNTA2NTA1NTIwODkwNTc5OTU0X24uanBnIiwibmJmIjoxNzc5MDcwMDAzLCJleHAiOjE3NzkwNzM2MDMsImlhdCI6MTc3OTA3MDAwM30.Ef4vN2Pljrpl6lhxD8sGmcqUIo9AgJZ6HGvp-CQEe0M",
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNjYyNTMzOTMwXzE4MDk2NTQzMTczMTA0MDkwXzM4NDM0MjU3NTQ5NjgwNjU4OTdfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfczY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1vcmQ1LTMuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnSGhfRUlzaXU2b0lKaFZjYWdaUmRtWDQ0OTJsSmxwUFJNQ1VsSmR4azlCMmMySUgtVXVRVFpsZ3AyLUFIVHkwOHMmX25jX29oYz1FM2NsTjIwcXZiZ1E3a052d0VMRGZfYiZfbmNfZ2lkPWdlM2JqTW5IRTVwb2o5bTFwV2ljNVEmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmNkIwWngyWXdUSDVHc1hUN1lLcGFtZ1FkeG5oSjdmNVE0X3BNbm5JSTQtUVEmb2U9NkExMDVDNEEmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b182NjI1MzM5MzBfMTgwOTY1NDMxNzMxMDQwOTBfMzg0MzQyNTc1NDk2ODA2NTg5N19uLmpwZyIsIm5iZiI6MTc3OTA3MDA5OSwiZXhwIjoxNzc5MDczNjk5LCJpYXQiOjE3NzkwNzAwOTl9.mYlvvsnVgMDQEENaDghDK-kdDDbdfHa-AeMIlhaMKG4",
+        hsm1,
+        hsm2,
+        hsm3,
       ],
     },
     {
