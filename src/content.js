@@ -270,7 +270,7 @@ export const CONTENT = {
     {
       title: "Revista Mujer Actual",
       subtitle: "Lilian Camarena le pone garabatos a su vida",
-      src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNTU5MTc4Mzg1XzE4MDc3ODI4MDE4MTA0MDkwXzMwMDIyNTM4OTI0Mzk1Mjk0MTNfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfcDY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1jcGgyLTEuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnRWI5Rmc5SlFRRktRVWM2cGN6RXJ4YnBjVkY0Y0hUY0tTSFRycTl3ak45bXlXbmRCZkdNeUVEZXdReXNhVDJ4QVEmX25jX29oYz13X1IzOW1rcWZmc1E3a052d0ZaQVNtSyZfbmNfZ2lkPTYyVFQyaElQLTZObVlVeFlaOGRGQ0EmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmN2pwc2UxWXluRGVMUlRiaVlTNFd3QWVYc3JBZVo5ekZjLW5fbERrTjJocHcmb2U9NkExMDJFNkQmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b181NTkxNzgzODVfMTgwNzc4MjgwMTgxMDQwOTBfMzAwMjI1Mzg5MjQzOTUyOTQxM19uLmpwZyIsIm5iZiI6MTc3OTA3MDU1MSwiZXhwIjoxNzc5MDc0MTUxLCJpYXQiOjE3NzkwNzA1NTF9.AcIPmJzUgVhedL1NzrfHX3ODk8W58-Is2dy8DwzHF_U",
+      src: "https://revistamujeractual.com/wp-content/uploads/2025/08/x1-3-scaled.jpg",
       url: "https://revistamujeractual.com/mujeractual/lilian-camarena-le-pone-garabatos-a-su-vida/",
     },
   ],
