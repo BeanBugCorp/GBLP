@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Layout from "./Layout";
 import { CONTENT } from "./content";
+import LazyImage from "./components/LazyImage";
 import "./styles/GarabatosByLily.css"
 import "./styles/Services.css"
 import csOrange from "./assets/branding/squiggles/cs-orange.png";
@@ -68,7 +69,8 @@ function Carousel({ photos }) {
     <div className="carousel">
       {photos.map((src, idx) => (
         <div key={idx} className={`carousel-slide${idx === i ? " active" : ""}`}>
-          <img src={src} alt={`Lily ${idx + 1}`} loading="lazy" />
+          <LazyImage src={src} alt={`Lily ${idx + 1}`} />
+          {/* <img src={src} alt={`Lily ${idx + 1}`} loading="lazy" /> */}
         </div>
       ))}
       <button className="carousel-btn prev" aria-label="Anterior"
