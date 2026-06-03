@@ -3,6 +3,14 @@ import Layout from "./Layout";
 import { CONTENT } from "./content";
 import "./styles/GarabatosByLily.css"
 import "./styles/Services.css"
+import csOrange from "./assets/branding/squiggles/cs-orange.png";
+import ssPink from "./assets/branding/squiggles/ss-pink.png";
+import ssBlue from "./assets/branding/squiggles/ss-blue.png";
+import csYellow from "./assets/branding/squiggles/cs-yellow.png";
+import csPink from "./assets/branding/squiggles/cs-pink.png";
+import csBlue from "./assets/branding/squiggles/cs-blue.png";
+import ssYellow from "./assets/branding/squiggles/ss-yellow.png";
+import ssOrange from "./assets/branding/squiggles/ss-orange.png";
 
 /* ============================================================================
    GARABATOS BY LILY — Landing Page
@@ -143,6 +151,8 @@ function ServiceCard({ service, index, svcId }) {
 function Servicios() {
   return (
     <section className="section" id="servicios">
+      <img src={csOrange} className="squiggle sq-1" alt="" aria-hidden="true" />
+      <img src={ssPink}   className="squiggle sq-2" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
           <h2 className="script-h" style={{ color: "var(--azul)" }}>Servicios</h2>
@@ -163,6 +173,12 @@ function Servicios() {
 function Trabajo() {
   return (
     <section className="section" id="trabajo">
+      <img src={ssBlue}   className="squiggle sq-3" alt="" aria-hidden="true" />
+      <img src={csYellow} className="squiggle sq-4" alt="" aria-hidden="true" />
+      <img src={csPink}   className="squiggle sq-5" alt="" aria-hidden="true" />
+      <img src={csBlue}   className="squiggle sq-6" alt="" aria-hidden="true" />  
+      <img src={ssYellow} className="squiggle sq-7" alt="" aria-hidden="true" />
+      <img src={ssOrange} className="squiggle sq-8" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
           <h2 className="script-h" style={{ color: "var(--rosa-fuerte)" }}>
