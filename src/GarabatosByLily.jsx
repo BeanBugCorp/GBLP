@@ -70,7 +70,6 @@ function Carousel({ photos }) {
       {photos.map((src, idx) => (
         <div key={idx} className={`carousel-slide${idx === i ? " active" : ""}`}>
           <LazyImage src={src} alt={`Lily ${idx + 1}`} />
-          {/* <img src={src} alt={`Lily ${idx + 1}`} loading="lazy" /> */}
         </div>
       ))}
       <button className="carousel-btn prev" aria-label="Anterior"
