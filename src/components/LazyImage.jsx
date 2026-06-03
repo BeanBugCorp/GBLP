@@ -1,5 +1,5 @@
 import { useState } from "react";
-{/*import css file*/}
+import "../styles/LazyImage.css";
 
 export default function LazyImage({ src, alt, className = ""}) {
     const [loaded, setLoaded] = useSate(false);
