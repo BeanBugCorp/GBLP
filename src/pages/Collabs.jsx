@@ -28,16 +28,16 @@ const COLLAB_IMAGES = [
 ];
 
 const COLLAB_LAYOUT = [
-  { size: "sz-tall",  tilt: -3,   frame: "#7a5c3a" },  // 0 Adidas
-  { size: "sz-lg",    tilt: 1.5,  frame: "#5c3d2e" },  // 1 Marriott
-  { size: "sz-sm",    tilt: 3.5,  frame: "#8b6e4e" },  // 2 MAC
-  { size: "sz-wide",  tilt: -2,   frame: "#6b4c3b" },  // 3 Pollo Loco
-  { size: "sz-md",    tilt: 2.5,  frame: "#4a3728" },  // 4 Clinique
-  { size: "sz-md",    tilt: -2.5, frame: "#7c5e42" },  // 5 Ferragamo
-  { size: "sz-tall",  tilt: 1,    frame: "#8b5c3a" },  // 6 Jo Malone
-  { size: "sz-sm",    tilt: -4,   frame: "#5a4030" },  // 7 CFE
-  { size: "sz-lg",    tilt: 2,    frame: "#6b5040" },  // 8 Lululemon
-  { size: "sz-md",    tilt: -1.5, frame: "#7a6040" },  // 9 Telvista
+  { size: "sz-tall",  tilt: -3,   frame: "#055757" },  // 0 Adidas
+  { size: "sz-lg",    tilt: 1.5,  frame: "#b68a12" },  // 1 Marriott
+  { size: "sz-sm",    tilt: 3.5,  frame: "#a25d70" },  // 2 MAC
+  { size: "sz-wide",  tilt: -2,   frame: "#b14115" },  // 3 Pollo Loco
+  { size: "sz-md",    tilt: 2.5,  frame: "#055757" },  // 4 Clinique
+  { size: "sz-md",    tilt: -2.5, frame: "#b68a12" },  // 5 Ferragamo
+  { size: "sz-tall",  tilt: 1,    frame: "#a25d70" },  // 6 Jo Malone
+  { size: "sz-sm",    tilt: -4,   frame: "#b14115" },  // 7 CFE
+  { size: "sz-lg",    tilt: 2,    frame: "#055757" },  // 8 Lululemon
+  { size: "sz-md",    tilt: -1.5, frame: "#b68a12" },  // 9 Telvista
 ];
 
 // Row groupings: indices into the collabs array
