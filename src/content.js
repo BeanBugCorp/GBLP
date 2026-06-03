@@ -17,6 +17,17 @@ import hsa1 from "./assets/home/Servicios_Activacion1.jpeg";
 import hsa2 from "./assets/home/Servicios_Activacion2.jpeg";
 import hsa3 from "./assets/home/Servicios_Activacion3.jpeg";
 
+// Home - Conoce Mi Trabajo
+import hcmt_adidas from "./assets/home/CMT_Adidas.jpeg";
+import hcmt_madres from "./assets/home/CMT_DiaDeMadres.jpeg";
+import hcmt_adidas from "./assets/home/CMT_Jacuzzi.jpeg";
+import hcmt_adidas from "./assets/home/CMT_JoMalone.jpeg";
+import hcmt_adidas from "./assets/home/CMT_Learn2Learn.jpg";
+import hcmt_adidas from "./assets/home/CMT_Lulumelon.jpg";
+import hcmt_adidas from "./assets/home/CMT_Navidad.jpeg";
+import hcmt_adidas from "./assets/home/CMT_Snoppy.jpeg";
+import hcmt_adidas from "./assets/home/CMT_Telvista.jpg";
+
 // portafolio — valentin
 import pv1 from "./assets/portafolio/valentin/v1.jpeg";
 import pv2 from "./assets/portafolio/valentin/v2.jpeg";
