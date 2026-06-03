@@ -205,3 +205,23 @@ html{scroll-behavior:smooth;}
   *{animation:none!important;transition:none!important;}
   .reveal{opacity:1;transform:none;}
 }
+
+/* ===== SQUIGGLE BACKGROUNDS ===== */
+.squiggle{
+  position:absolute;
+  width:700px;
+  pointer-events:none;
+  user-select:none;
+  z-index:0;
+  opacity:0.9;
+  filter:blur(15px);
+  mix-blend-mode:multiply;
+}
+.sq-1{ top:-60px;  right:-200px;  transform:rotate(-25deg); }
+.sq-2{ bottom:-150px; left:-120px; transform:rotate(30deg);  }
+.sq-3{ top:-80px;  right:-100px;  transform:rotate(15deg);  }
+.sq-4{ top:-160px; left:-100px; transform:rotate(-10deg); }
+.sq-5{ top:500px; right:-100px; transform:rotate(-10deg); } /* csPink */
+.sq-6{ bottom:-100px; left:-150px; transform:rotate(-60deg); } /*csBlue */
+.sq-7{ bottom:30px;  right:-150px; transform:rotate(35deg);  } /*ssyellow */
+.sq-8{ top: 500px; left:-150px; transform:rotate(-20deg); } /*ssorange */
