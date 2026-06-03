@@ -221,6 +221,22 @@ export default function Services() {
             svcId={SERVICE_IDS[idx]}
           />
         ))}
+
+        <section className="svc-otros">
+          <div className="wrap svc-otros-inner">
+            <h2 className="svc-otros-title">
+              ¿tienes otros garabatos en mente?
+            </h2>
+            <p className="svc-otros-body">
+              Cada proyecto es único, y las mejores ideas empiezan con una conversación ✨<br /> <br />
+              Cuéntame lo que imaginas y lo transformamos en algo increíble.
+            </p>
+            <a href={buildMailto("Otros Proyectos")} className="svc-otros-btn">
+              👉 Solicitar Cotización
+            </a>
+          </div>
+        </section>
+
       </main>
     </Layout>
   );

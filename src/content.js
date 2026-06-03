@@ -1,9 +1,32 @@
+// Home - Branding
 import lilyCover from "./assets/branding/lilypics/lilycover.JPG";
 import lily203 from "./assets/branding/lilypics/IMG_0203.JPG";
 import lily207 from "./assets/branding/lilypics/IMG_0207.JPG";
 import lily1611 from "./assets/branding/lilypics/IMG_1611.JPG";
 import lily1618 from "./assets/branding/lilypics/IMG_1618.JPG";
 import lily1621 from "./assets/branding/lilypics/IMG_1621.JPG";
+
+// Home - Servicios
+import hsg1 from "./assets/home/Servicios_Window1.jpeg";
+import hsg2 from "./assets/home/Servicios_Window2.jpeg";
+import hsg3 from "./assets/home/Servicios_Window3.jpeg";
+import hsm1 from "./assets/home/Servicios_Mural1.jpeg";
+import hsm2 from "./assets/home/Servicios_Mural2.jpeg";
+import hsm3 from "./assets/home/Servicios_Mural3.jpg";
+import hsa1 from "./assets/home/Servicios_Activacion1.jpeg";
+import hsa2 from "./assets/home/Servicios_Activacion2.jpeg";
+import hsa3 from "./assets/home/Servicios_Activacion3.jpeg";
+
+// Home - Conoce Mi Trabajo
+import hcmt_adidas from "./assets/home/CMT_Adidas.jpeg";
+import hcmt_madres from "./assets/home/CMT_DiaDeMadres.jpeg";
+import hcmt_jacuzzi from "./assets/home/CMT_Jacuzzi.jpeg";
+import hcmt_jomalone from "./assets/home/CMT_JoMalone.jpeg";
+import hcmt_learn2learn from "./assets/home/CMT_Learn2Learn.jpg";
+import hcmt_lulumelon from "./assets/home/CMT_Lulumelon.jpg";
+import hcmt_navidad from "./assets/home/CMT_Navidad.jpeg";
+import hcmt_snoppy from "./assets/home/CMT_Snoppy.jpeg";
+import hcmt_telvista from "./assets/home/CMT_Telvista.jpg";
 
 // portafolio — valentin
 import pv1 from "./assets/portafolio/valentin/v1.jpeg";
@@ -127,27 +150,27 @@ export const CONTENT = {
       name: "Window Painting",
       desc: "Pinto espejos y ventanas para campañas y temporadas.",
       images: [
-        "https://instagram.fgdl5-5.fna.fbcdn.net/v/t51.82787-15/584032320_18082973624104090_224461184912968641_n.jpg?stp=dst-jpegr_e35_p750x750_sh2.08_tt6&_nc_cat=110&ig_cache_key=Mzc3MDMwOTQ5MTI4OTExNzQ5Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=W-HRBhOt-bUQ7kNvwEogcD2&_nc_oc=AdoJ2YWFFtUgrXHindUlkHXbST-zWP8_5tQVvWZ8QYN95hNGJYJInVXqGwA9tkbyLew&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=instagram.fgdl5-5.fna&_nc_gid=nCQow1ghl-B0Ekhktfhj3Q&_nc_ss=7a22e&oh=00_Af64BwDcL4Jd8rERMyp0xPWp6649kzLOC7jnr5swRVAa7Q&oe=6A102D0E",
-        "https://instagram.fgdl5-5.fna.fbcdn.net/v/t51.82787-15/566665795_18079978844104090_6003292229219372900_n.jpg?stp=dst-jpegr_e35_p750x750_sh2.08_tt6&_nc_cat=110&ig_cache_key=Mzc0NTczODQ0MzYyOTQ4NzE3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5oZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=LZB8S-rJieAQ7kNvwFTkYSr&_nc_oc=Adq677iyVIhuVPHg6IxT88Xf6MXqfEI3e2kcG0EByLmwPkVjWqfSmvfo4Muuj6AfjMc&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&se=-1&_nc_ht=instagram.fgdl5-5.fna&_nc_gid=MOpYs_NSv1djV7QKuNyokA&_nc_ss=7a22e&oh=00_Af50TdLjnEL2eDQlDzf8YsJmrwb0U2mgQEqrXJXcuuUEYA&oe=6A1046E2",
-        "https://instagram.fgdl5-3.fna.fbcdn.net/v/t39.30808-6/673686293_122133579321066663_1207519738772785538_n.jpg?stp=dst-jpg_e35_p750x750_sh2.08_tt6&_nc_cat=106&ig_cache_key=Mzg3NzM2MDQ1NTEwMjU4NDA5NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTUzNi5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=NRB3XjwsIH8Q7kNvwGiz0Tn&_nc_oc=AdpD_SjvZrDkCK9h4aVQuKlN-XWa3jzWmuns5REfdsAqt6AQY1kt2CTqw6gyZCH7o24&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=instagram.fgdl5-3.fna&_nc_gid=4c-p96Nq3oqY53vApUwldg&_nc_ss=7a22e&oh=00_Af4QqwF8xwj2ktg0wBQzFvSu5HBZjaCpVv_RGD34I_csRg&oe=6A105612",
+        hsg1,
+        hsg2,
+        hsg3,
       ],
     },
     {
       name: "Murales",
       desc: "Transformo paredes en piezas llenas de color y personalidad.",
       images: [
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90MzkuMzA4MDgtNi82OTA2OTMyNDlfMTIyMTM2NTIxNzIxMDY2NjYzXzQ2ODAwODY2NTc1MDg5ODU0OTVfbi5qcGc_c3RwPWRzdC1qcGdfZTM1X3A2NDB4NjQwX3NoMi4wOF90dDYmZWZnPWV5SjJaVzVqYjJSbFgzUmhaeUk2SW1sdFlXZGxYM1Z5YkdkbGJpNHhOVE0yTG5Oa2NpNXlaV2QxYkdGeVgzQm9iM1J2TG1NeUluMCZfbmNfaHQ9c2NvbnRlbnQtc2pjMy0xLmNkbmluc3RhZ3JhbS5jb20mX25jX2NhdD0xMDMmX25jX29jPVE2Y1oyZ0hvWlBvT1JTaTBsX1NhZ1lmczBsWHd2bUhrVWJ3WUI0SDd0NWpfeVJkTmpaTWlmZVRLZXducXcxWXlYbWlYbXpRJl9uY19vaGM9YVV6Ry1KNFlfM1FRN2tOdndFM1dPb0QmX25jX2dpZD1KeG05TFBpSktXTUV4TUZLZ0FsYXJBJmVkbT1BUHMxN0NVQUFBQUEmY2NiPTctNSZvaD0wMF9BZjdRNTZ4dFZQb3dKSGRyOEt1Y1JOQ0JfbEhsQkJMZTA5Qnl4bWtwTG5idk1RJm9lPTZBMTAxMDQzJl9uY19zaWQ9MTBkMTNiIiwiZmlsZW5hbWUiOiJTYXZlSW50YS5jb21fNjkwNjkzMjQ5XzEyMjEzNjUyMTcyMTA2NjY2M180NjgwMDg2NjU3NTA4OTg1NDk1X24uanBnIiwibmJmIjoxNzc5MDQ5ODM2LCJleHAiOjE3NzkwNTM0MzYsImlhdCI6MTc3OTA0OTgzNn0.nrkzzcrFAZo8WvAbjPWKeSUX3KORtdDbOGoQw0Vd7sY",
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuMjg4NS0xNS81MDA3MzI4NzVfMTgwNjQ2MDk3NzUxMDQwOTBfMTUwNjUwNTUyMDg5MDU3OTk1NF9uLmpwZz9zZT0tMSZzdHA9ZHN0LWpwZWdyX2UzNV9wNjQweDY0MF9zaDIuMDhfdHQ2JmVmZz1leUoyWlc1amIyUmxYM1JoWnlJNkltbHRZV2RsWDNWeWJHZGxiaTR4TkRRd0xtaGtjaTV5WldkMWJHRnlYM0JvYjNSdkxtTXlJbjAmX25jX2h0PXNjb250ZW50LXNqYzMtMS5jZG5pbnN0YWdyYW0uY29tJl9uY19jYXQ9MTEwJl9uY19vYz1RNmNaMmdFcm1BYjVFTDdWOTV5X2x0VXM2YXhaaGFLTFRtNnIwMURublh6aDRsRFRmUlUzTElVSGw2RUdSbWhTcEt5VldVZyZfbmNfb2hjPUk5THBzbk9fMjNRUTdrTnZ3R0dITWtiJl9uY19naWQ9N1RobHJRYXNrVmdLWlFhZnBsR180QSZlZG09QVBzMTdDVUJBQUFBJmNjYj03LTUmb2g9MDBfQWY0RnVtbm05eTlxS2JxVkdfNXl2ZTVROEhCLURsQnpUbS1PMXZfNjVCVDZZQSZvZT02QTEwM0JBQyZfbmNfc2lkPTEwZDEzYiIsImZpbGVuYW1lIjoiU25hcEluc3RhLnRvXzUwMDczMjg3NV8xODA2NDYwOTc3NTEwNDA5MF8xNTA2NTA1NTIwODkwNTc5OTU0X24uanBnIiwibmJmIjoxNzc5MDcwMDAzLCJleHAiOjE3NzkwNzM2MDMsImlhdCI6MTc3OTA3MDAwM30.Ef4vN2Pljrpl6lhxD8sGmcqUIo9AgJZ6HGvp-CQEe0M",
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNjYyNTMzOTMwXzE4MDk2NTQzMTczMTA0MDkwXzM4NDM0MjU3NTQ5NjgwNjU4OTdfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfczY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1vcmQ1LTMuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnSGhfRUlzaXU2b0lKaFZjYWdaUmRtWDQ0OTJsSmxwUFJNQ1VsSmR4azlCMmMySUgtVXVRVFpsZ3AyLUFIVHkwOHMmX25jX29oYz1FM2NsTjIwcXZiZ1E3a052d0VMRGZfYiZfbmNfZ2lkPWdlM2JqTW5IRTVwb2o5bTFwV2ljNVEmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmNkIwWngyWXdUSDVHc1hUN1lLcGFtZ1FkeG5oSjdmNVE0X3BNbm5JSTQtUVEmb2U9NkExMDVDNEEmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b182NjI1MzM5MzBfMTgwOTY1NDMxNzMxMDQwOTBfMzg0MzQyNTc1NDk2ODA2NTg5N19uLmpwZyIsIm5iZiI6MTc3OTA3MDA5OSwiZXhwIjoxNzc5MDczNjk5LCJpYXQiOjE3NzkwNzAwOTl9.mYlvvsnVgMDQEENaDghDK-kdDDbdfHa-AeMIlhaMKG4",
+        hsm1,
+        hsm2,
+        hsm3,
       ],
     },
     {
       name: "Activaciones",
       desc: "Arte en vivo para eventos, marcas y activaciones.",
       images: [
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90MzkuMzA4MDgtNi82OTIwOTM4MTNfMTIyMTM2NTIzNTI3MDY2NjYzXzI0NjcyMTU3NTYwMjU4ODgzOTFfbi5qcGc_c3RwPWRzdC1qcGdfZTM1X3A2NDB4NjQwX3NoMi4wOF90dDYmZWZnPWV5SjJaVzVqYjJSbFgzUmhaeUk2SW1sdFlXZGxYM1Z5YkdkbGJpNHhOVE0yTG5Oa2NpNXlaV2QxYkdGeVgzQm9iM1J2TG1NeUluMCZfbmNfaHQ9c2NvbnRlbnQtbGdhMy0xLmNkbmluc3RhZ3JhbS5jb20mX25jX2NhdD0xMDMmX25jX29jPVE2Y1oyZ0dicnM1THB3ZW9LeXBkdXRtaW9OQy00VEFxQl8wUjR2U1J5N2VXeTdwS21ZV3FLMDBGNHpiaERJRHlzRzNzeE1ZJl9uY19vaGM9cnoyN25Xd3lJbDhRN2tOdndGOF8tQ24mX25jX2dpZD1JRWxBcnNjUzJhUlVtdGhCenJ0eC1RJmVkbT1BUHMxN0NVQUFBQUEmY2NiPTctNSZvaD0wMF9BZjdLOHBrZEF1ZHlyZnJZbEJZdFhRLWk0TXBtNVlnemhWMVdsdnp1cHVudDZRJm9lPTZBMTA0RkNEJl9uY19zaWQ9MTBkMTNiIiwiZmlsZW5hbWUiOiJTbmFwSW5zdGEudG9fNjkyMDkzODEzXzEyMjEzNjUyMzUyNzA2NjY2M18yNDY3MjE1NzU2MDI1ODg4MzkxX24uanBnIiwibmJmIjoxNzc5MDY5Njc3LCJleHAiOjE3NzkwNzMyNzcsImlhdCI6MTc3OTA2OTY3N30.Jpv7qoQfSKb3p9Dojnn_p62dSP0oYAVNTM7b6Jsw1Nw",
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNTczODI2ODgyXzE4MDgxNjg0NTg3MTA0MDkwXzIyMjkyNjI0NTE3Mjc1NzMwMzlfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfczY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1hbXMyLTEuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnRlFMMWRzMjBXTDdkSXhfSkJNMmRFTU5jZVhBTW5rYUJVMjZYZGI0OENlUC1ieUEtdUdxQ2I4QmFIQVZKVXo0YU0mX25jX29oYz1GUXV0VTlHMkg3VVE3a052d0hXa2xSMCZfbmNfZ2lkPUlJNXhHV2MzdGY4MVUyNXJIZm9yNFEmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmNTkxbkRSNGxQbnpibnJmcVM1YjVfbUlVOHJtQXlMRTc3TFhCT2xuX1JUT1Emb2U9NkExMDA0NzAmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b181NzM4MjY4ODJfMTgwODE2ODQ1ODcxMDQwOTBfMjIyOTI2MjQ1MTcyNzU3MzAzOV9uLmpwZyIsIm5iZiI6MTc3OTA1MDYxNCwiZXhwIjoxNzc5MDU0MjE0LCJpYXQiOjE3NzkwNTA2MTR9.OyxT5m8uU000Ln2QUeE1h4gSXuCDdMDT5O4uHAzfFmg",
-        "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuMjg4NS0xNS81MDE5OTM3MThfMTgwNjUxNjg0MzIxMDQwOTBfNTExMzQ0NTg1MTU2NjY2MTY1N19uLmpwZz9zZT0tMSZzdHA9ZHN0LWpwZWdyX2UzNV9wNjQweDY0MF9zaDIuMDhfdHQ2JmVmZz1leUoyWlc1amIyUmxYM1JoWnlJNkltbHRZV2RsWDNWeWJHZGxiaTR4TkRRd0xtaGtjaTV5WldkMWJHRnlYM0JvYjNSdkxtTXlJbjAmX25jX2h0PXNjb250ZW50LWZyYTUtMS5jZG5pbnN0YWdyYW0uY29tJl9uY19jYXQ9MTEwJl9uY19vYz1RNmNaMmdHZlN6c0l6LWNlY2sxWkJ2eGcxRVg5djZHbVlKczFFMUkzYXVnNFJQZkJDLWEyb0dBckZoZHk3STlPVUlEQlpMMCZfbmNfb2hjPTFFMlN6UDhSY3hvUTdrTnZ3Rl9ob0w2Jl9uY19naWQ9cWctbUlQZVNzNUlTVVZram14eTF5USZlZG09QVBzMTdDVUJBQUFBJmNjYj03LTUmb2g9MDBfQWY2VjBmb0dWV1Nodno5aWNjbFRHOGE4RkpqajhoTTVMMW5DVnptZ3l1c00wUSZvZT02QTEwNTczNiZfbmNfc2lkPTEwZDEzYiIsImZpbGVuYW1lIjoiU25hcEluc3RhLnRvXzUwMTk5MzcxOF8xODA2NTE2ODQzMjEwNDA5MF81MTEzNDQ1ODUxNTY2NjYxNjU3X24uanBnIiwibmJmIjoxNzc5MDY5NzYwLCJleHAiOjE3NzkwNzMzNjAsImlhdCI6MTc3OTA2OTc2MH0.UPUrwh4kSUATsex49_5V97EbH7baJwx_bmdybpvQnCU",
+        hsa1,
+        hsa2,
+        hsa3,
       ],
     },
   ],
@@ -156,47 +179,47 @@ export const CONTENT = {
   // Any image size works. `title` + `subtitle` show on hover (or always, on phone).
   gallery: [
     {
-      src: "https://www.figma.com/api/mcp/asset/6fd10e4c-e3fa-413f-b3da-a73ac0c33640",
+      src: hcmt_madres,
       title: "Día de madres",
       subtitle: "Window painting",
     },
     {
-      src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNTg4NjM1MzI0XzE4MDg0MjU3Mzc4MTA0MDkwXzY0NjQ3NDU5NjI4NDg2ODcxODhfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfcDY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1hcm4yLTEuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnRU5KX0tyUWJ0clFMY3Q3akRjazJKamxVRmx0OTgtbTR0TFUxZUdVakpPbi1RZS04MG95U0ZtREE4M09aUWtiaUEmX25jX29oYz13WXFWSkZnVDhDVVE3a052d0gzbWVkLSZfbmNfZ2lkPTFXcG00bkRLQW04amN3U3dLc3k1QXcmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmNGYxSjVhWGFCYXhKX0NXZnRodEZOWUtvWW1NelZRcHZLMWd2V0RkdkRld1Emb2U9NkEwRkZBRDQmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b181ODg2MzUzMjRfMTgwODQyNTczNzgxMDQwOTBfNjQ2NDc0NTk2Mjg0ODY4NzE4OF9uLmpwZyIsIm5iZiI6MTc3OTA1MDg5OCwiZXhwIjoxNzc5MDU0NDk4LCJpYXQiOjE3NzkwNTA4OTh9.O60s8KYjrOI37v4AbGwLQVBkkMxYrJIuRwh783G8aLY",
+      src: hcmt_navidad,
       title: "Navidad",
       subtitle: "Window painting",
     },
     {
-      src: "https://www.figma.com/api/mcp/asset/de922aa6-5679-423c-9073-98e7a4af3d96",
+      src: hcmt_snoppy,
       title: "Snoopy",
       subtitle: "Window painting",
     },
     {
-      src: "https://www.figma.com/api/mcp/asset/82077584-9af0-43e9-80a3-af5e5a161c89",
+      src: hcmt_adidas,
       title: "Mundial Adidas",
       subtitle: "Activación",
     },
     {
-      src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90MzkuMzA4MDgtNi82OTA2NDgwMTBfMTIyMTM2NTIzNDEzMDY2NjYzXzUzMTM5MTk2MzQ5MDEzMDY0Mjlfbi5qcGc_c3RwPWRzdC1qcGdfZTM1X3A2NDB4NjQwX3NoMi4wOF90dDYmZWZnPWV5SjJaVzVqYjJSbFgzUmhaeUk2SW1sdFlXZGxYM1Z5YkdkbGJpNHhOVE0yTG5Oa2NpNXlaV2QxYkdGeVgzQm9iM1J2TG1NeUluMCZfbmNfaHQ9c2NvbnRlbnQtbGhyOC0yLmNkbmluc3RhZ3JhbS5jb20mX25jX2NhdD0xMDMmX25jX29jPVE2Y1oyZ0YwMktwOEY2RDRXZ3lYYVhwbV8tZkdfWXpmUGowZzhXUExxV19CYVlUWTJ1VlRjX2tpOXk3RnlQbXVZclE3UHNjJl9uY19vaGM9TWlicjBUVG1jTGNRN2tOdndHN0h3a0smX25jX2dpZD05clU0Yks1ajNNQzVZRjdXY0pwTnNnJmVkbT1BUHMxN0NVQUFBQUEmY2NiPTctNSZvaD0wMF9BZjdaNEZ1MVpkcDRWQXE3c19rRnJCNTNjOXE3MGVhLVd3U3ZIbE1tbFBwZ01RJm9lPTZBMTAwMzdCJl9uY19zaWQ9MTBkMTNiIiwiZmlsZW5hbWUiOiJTbmFwSW5zdGEudG9fNjkwNjQ4MDEwXzEyMjEzNjUyMzQxMzA2NjY2M181MzEzOTE5NjM0OTAxMzA2NDI5X24uanBnIiwibmJmIjoxNzc5MDUxMDg2LCJleHAiOjE3NzkwNTQ2ODYsImlhdCI6MTc3OTA1MTA4Nn0.stAKpptkTslQdlgOgNve1bH9CZ5l1iStRo04qlY1X7M",  
+      src: hcmt_jomalone,
       title: "JO Malone",
       subtitle: "Activación",
     },
     {
-        src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90MzkuMzA4MDgtNi81NzQyNTIzMzVfMTIyMTA2MzA4Njg1MDY2NjYzXzM4NDIxOTg4NDAwNzI2NzcwMjBfbi5qcGc_c3RwPWRzdC1qcGdfZTM1X3A2NDB4NjQwX3NoMi4wOF90dDYmZWZnPWV5SjJaVzVqYjJSbFgzUmhaeUk2SW1sdFlXZGxYM1Z5YkdkbGJpNHhOVE0yTG5Oa2NpNXlaV2QxYkdGeVgzQm9iM1J2TG1NeUluMCZfbmNfaHQ9c2NvbnRlbnQtbGdhMy0xLmNkbmluc3RhZ3JhbS5jb20mX25jX2NhdD0xMDMmX25jX29jPVE2Y1oyZ0VJeDJKVm5iRWdXX0FrRTcxczJBTEFJSWNLSEVnb2dzdWhuamtfOUtLY1lfeEZEV2xrYjVkaGZDb2pCaHBLbVFjJl9uY19vaGM9WHI2RzNJUzA0Z1VRN2tOdndIQUJRZmkmX25jX2dpZD1PRUxOd1VWdjBGN1pfdE1hT3c4RVRBJmVkbT1BUHMxN0NVQUFBQUEmY2NiPTctNSZvaD0wMF9BZjVWR1pRZW4zNE8tNjk1THRLd3BQTHlkTUVEaVB0SG96SnRRX3FZdVhESGNBJm9lPTZBMEZGMDQ3Jl9uY19zaWQ9MTBkMTNiIiwiZmlsZW5hbWUiOiJTbmFwSW5zdGEudG9fNTc0MjUyMzM1XzEyMjEwNjMwODY4NTA2NjY2M18zODQyMTk4ODQwMDcyNjc3MDIwX24uanBnIiwibmJmIjoxNzc5MDUxNDk2LCJleHAiOjE3NzkwNTUwOTYsImlhdCI6MTc3OTA1MTQ5Nn0.GmVvd209FIHQZUtOGWocMjXYQxTZwNDwpIfGwB1lruE",
-        title: "Lululemon",
-        subtitle: "Activación",
+      src: hcmt_lulumelon,
+      title: "Lululemon",
+      subtitle: "Activación",
     },
     {
-        src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNjU4MTExOTE1XzE4MDk2NTQzMjI0MTA0MDkwXzI4MzQ0OTcwODcwNzM5MDI0MThfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfczY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC13YXcyLTEuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnSFBzVkk5UXVqeGRZX0xHZW4xVWNHcGw1YWZnaVppYWt5V1kxLVE3c3YtTGZvb19NR0o5eUNyNmFJeENXMWd5Rm8mX25jX29oYz1CQ3ZWV1NIdHZ0Y1E3a052d0ZqcGgyeCZfbmNfZ2lkPW84c0JFZk1LTURoZmZhM1ZkR011alEmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmN0ZNREYyUE8yYmx4Ym4zYnhDZnZxVFVFTHdrU01UMXExdzRjblNzaS1ja0Emb2U9NkExMDE2NDAmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b182NTgxMTE5MTVfMTgwOTY1NDMyMjQxMDQwOTBfMjgzNDQ5NzA4NzA3MzkwMjQxOF9uLmpwZyIsIm5iZiI6MTc3OTA1MTI5NywiZXhwIjoxNzc5MDU0ODk3LCJpYXQiOjE3NzkwNTEyOTd9.L3fltoz2_AMaA5451WpgD2QkFsTj_V38-rNLq6Yag0w",
-        title: "Jacuzzi",
-        subtitle: "Mural",
+      src: hcmt_jacuzzi,
+      title: "Jacuzzi",
+      subtitle: "Mural",
     },
     {
-      src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNTI1MTUwNjQwXzE4MDcwNzcwNTYzMTA0MDkwXzE1MjExNzcwMTUxMDY1OTA1OV9uLmpwZz9zZT0tMSZzdHA9ZHN0LWpwZWdyX2UzNV9wNjQweDY0MF9zaDIuMDhfdHQ2JmVmZz1leUoyWlc1amIyUmxYM1JoWnlJNkltbHRZV2RsWDNWeWJHZGxiaTR4TkRRd0xtaGtjaTV5WldkMWJHRnlYM0JvYjNSdkxtTXlJbjAmX25jX2h0PXNjb250ZW50LXNqYzMtMS5jZG5pbnN0YWdyYW0uY29tJl9uY19jYXQ9MTEwJl9uY19vYz1RNmNaMmdFQUJ4TUdtUGhEOEtqZHZ0dE16bWVHQndRT0xlS05URGtQWmY3bDhMVU5vQnVsUmJQQ2ltcUdVWlgyalMwQXJKMCZfbmNfb2hjPU5qSnJtVlFEbXpZUTdrTnZ3RzI0Qjc3Jl9uY19naWQ9MFFvaGZja3NOUUVwY0dEYzF2LThhdyZlZG09QVBzMTdDVUJBQUFBJmNjYj03LTUmb2g9MDBfQWY1RFJpZWtEWDc1TXc0WEhWcTdzREZzOEw3M3p0ZXVZOGJlbElValJKX1ctQSZvZT02QTEwNTQyQyZfbmNfc2lkPTEwZDEzYiIsImZpbGVuYW1lIjoiU25hcEluc3RhLnRvXzUyNTE1MDY0MF8xODA3MDc3MDU2MzEwNDA5MF8xNTIxMTc3MDE1MTA2NTkwNTlfbi5qcGciLCJuYmYiOjE3NzkwNzAxOTEsImV4cCI6MTc3OTA3Mzc5MSwiaWF0IjoxNzc5MDcwMTkxfQ.21DYusNosviP1KYUVflu9nAaNZ7lga_HYE8JDptCvx4",
+      src: hcmt_telvista,
       title: "Mural Telvista",
       subtitle: "Mural",
     },
     {
-      src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNTQyNjAxNTAxXzE4MDc0Mzg3ODU1MTA0MDkwXzQ1NjIzMjU4NTA0MjE2MTY4MTdfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfcDY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1saHI2LTEuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnSGRFdHNOdEZ6TDFlOUVkSDl3dTVNRW10dUpqdjJOdGxPUnFIcWkzV2JDdkMwWkJ5TnhaeThLYm9TOUc0cm16aEkmX25jX29oYz1SeXpvUzZKMGpoVVE3a052d0h5cE9sTyZfbmNfZ2lkPW42Sk8taGlpd0luUTZEa3RudnVpUXcmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmNThFMjY1OEx2elllN1lzVS1weXJoSU1pZ0tJY3dpN3hkMl9naW9UY18yY3cmb2U9NkEwRkVBM0QmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b181NDI2MDE1MDFfMTgwNzQzODc4NTUxMDQwOTBfNDU2MjMyNTg1MDQyMTYxNjgxN19uLmpwZyIsIm5iZiI6MTc3OTA1MjI4NiwiZXhwIjoxNzc5MDU1ODg2LCJpYXQiOjE3NzkwNTIyODZ9.dQzT3yZ4787on9UCJpzcIkN7EvRDdgpRzouBfyhWgcw",
+      src: hcmt_learn2learn,
       title: "Learn2Learn",
       subtitle: "Mural",
     },
@@ -247,7 +270,7 @@ export const CONTENT = {
     {
       title: "Revista Mujer Actual",
       subtitle: "Lilian Camarena le pone garabatos a su vida",
-      src: "https://i.snapcdn.app/photo?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJodHRwczovL3Njb250ZW50LmNkbmluc3RhZ3JhbS5jb20vdi90NTEuODI3ODctMTUvNTU5MTc4Mzg1XzE4MDc3ODI4MDE4MTA0MDkwXzMwMDIyNTM4OTI0Mzk1Mjk0MTNfbi5qcGc_c2U9LTEmc3RwPWRzdC1qcGVncl9lMzVfcDY0MHg2NDBfc2gyLjA4X3R0NiZlZmc9ZXlKMlpXNWpiMlJsWDNSaFp5STZJbWx0WVdkbFgzVnliR2RsYmk0eE5EUXdMbWhrY2k1eVpXZDFiR0Z5WDNCb2IzUnZMbU15SW4wJl9uY19odD1zY29udGVudC1jcGgyLTEuY2RuaW5zdGFncmFtLmNvbSZfbmNfY2F0PTExMCZfbmNfb2M9UTZjWjJnRWI5Rmc5SlFRRktRVWM2cGN6RXJ4YnBjVkY0Y0hUY0tTSFRycTl3ak45bXlXbmRCZkdNeUVEZXdReXNhVDJ4QVEmX25jX29oYz13X1IzOW1rcWZmc1E3a052d0ZaQVNtSyZfbmNfZ2lkPTYyVFQyaElQLTZObVlVeFlaOGRGQ0EmZWRtPUFQczE3Q1VCQUFBQSZjY2I9Ny01Jm9oPTAwX0FmN2pwc2UxWXluRGVMUlRiaVlTNFd3QWVYc3JBZVo5ekZjLW5fbERrTjJocHcmb2U9NkExMDJFNkQmX25jX3NpZD0xMGQxM2IiLCJmaWxlbmFtZSI6IlNuYXBJbnN0YS50b181NTkxNzgzODVfMTgwNzc4MjgwMTgxMDQwOTBfMzAwMjI1Mzg5MjQzOTUyOTQxM19uLmpwZyIsIm5iZiI6MTc3OTA3MDU1MSwiZXhwIjoxNzc5MDc0MTUxLCJpYXQiOjE3NzkwNzA1NTF9.AcIPmJzUgVhedL1NzrfHX3ODk8W58-Is2dy8DwzHF_U",
+      src: "https://revistamujeractual.com/wp-content/uploads/2025/08/x1-3-scaled.jpg",
       url: "https://revistamujeractual.com/mujeractual/lilian-camarena-le-pone-garabatos-a-su-vida/",
     },
   ],
