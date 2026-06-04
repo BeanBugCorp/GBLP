@@ -1,5 +1,6 @@
 import Layout from "../Layout";
 import { CONTENT } from "../content";
+import LazyImage from "../components/LazyImage";
 import "../styles/GarabatosByLily.css";
 import "../styles/Collabs.css";
 
@@ -60,7 +61,7 @@ function CollabCanvas({ collab, img, layout, delay }) {
       <div className="collab-frame">
         <div className="collab-frame-border" style={{ "--frame-color": frame }}>
           <div className="collab-canvas-surface">
-            <img src={img} alt={name} loading="lazy" />
+            <LazyImage src = {img} alt = {name} />
             <div className="collab-canvas-label">
               <div className="collab-label-name">{name}</div>
               <div className="collab-label-desc">{desc}</div>
