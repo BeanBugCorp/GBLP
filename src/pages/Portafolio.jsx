@@ -78,7 +78,6 @@ export default function Portafolio() {
                   style={{ "--tilt": `${tilt}deg` }}
                 >
                   <LazyImage src = {src} alt = {`${season.name} ${i+1}`} />
-                  {/* <img src={src} alt={`${season.name} ${i + 1}`} loading="lazy" /> */}
                 </button>
               </figure>
             );
@@ -95,7 +94,7 @@ export default function Portafolio() {
             src={lightbox}
             alt="Vista ampliada"
             onClick={(e) => e.stopPropagation()}
-          />
+          /> 
         </div>
       )}
     </Layout>

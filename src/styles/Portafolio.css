@@ -161,7 +161,7 @@
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-.pg-full {
+ .pg-full {
   max-width: min(94vw, 1100px);
   max-height: 88vh;
   border-radius: 8px;
