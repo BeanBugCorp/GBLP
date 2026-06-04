@@ -229,7 +229,7 @@ function Colaboraciones() {
         <div className="marquee reveal">
           <div className="marquee-track">
             {logos.map((src, idx) => (
-              <img key={idx} src={src} alt="Marca colaboradora" loading="lazy" />
+              <LazyImage key = {idx} src = {src} alt = "Marca colaboradora" />
             ))}
           </div>
         </div>
