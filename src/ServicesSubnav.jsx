@@ -12,7 +12,7 @@ const SERVICES = [
   {
     id: "murales",
     label: "Murales",
-    sublabel: "Murales personalizados",
+    sublabel: "Murales garabateados",
     emoji: "🖼️",
     color: "#47b1b1",
     shadow: "#47b1b188",
@@ -20,7 +20,7 @@ const SERVICES = [
   {
     id: "activaciones",
     label: "Activaciones",
-    sublabel: "Live customization",
+    sublabel: "Garabatos en vivo",
     emoji: "🎨",
     color: "#e9619e",
     shadow: "#e9619e88",
@@ -56,16 +56,29 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
         display: "flex",
         flexDirection: "column",
         alignItems: "center",
-        gap: "20px",
-        padding: "28px 16px 20px",
+        gap: "8px",
+        padding: "12px 16px 8px",
         background: "rgba(255, 246, 230, 0.98)",
         backdropFilter: "blur(10px)",
       }}
     >
+      <style>{`
+        @media (max-width: 600px) {
+          .services-subnav-row { gap: 15px !important; padding-bottom: 8px !important; }
+          .services-subnav-btn {
+            padding: 5px 8px !important;
+            font-size: 11px !important;
+            gap: 4px !important;
+          }
+          .services-subnav-emoji { font-size: 13px !important; }
+        }
+      `}</style>
       <div
+        className="services-subnav-row"
         style={{
           display: "flex",
           gap: "18px",
+          paddingBottom: "12px",
           alignItems: "center",
           justifyContent: "center",
           flexWrap: "wrap",
@@ -79,6 +92,7 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
           return (
             <button
               key={s.id}
+              className="services-subnav-btn"
               onClick={() => handleSelect(s.id)}
               onMouseEnter={() => setHovering(s.id)}
               onMouseLeave={() => setHovering(null)}
@@ -87,12 +101,12 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
               aria-pressed={isActive}
               aria-label={`${s.label} — ${s.sublabel}`}
               style={{
-                padding: "14px 32px",
+                padding: "6px 20px",
                 borderRadius: "8px",
                 border: `3px solid ${s.color}`,
                 cursor: "pointer",
                 fontFamily: "'California Vibes', cursive, sans-serif",
-                fontSize: "clamp(16px, 2.5vw, 22px)",
+                fontSize: "clamp(13px, 2vw, 18px)",
                 whiteSpace: "nowrap",
                 background: isFilled ? s.color : "white",
                 color: isFilled ? "white" : s.color,
@@ -108,13 +122,13 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
                   : `3px 3px 0px ${s.shadow}`,
                 display: "flex",
                 alignItems: "center",
-                gap: "10px",
+                gap: "6px",
                 position: "relative",
                 transition: "all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1)",
                 outline: "none",
               }}
             >
-              <span style={{ fontSize: "24px", lineHeight: 1 }}>{s.emoji}</span>
+              <span className="services-subnav-emoji" style={{ fontSize: "18px", lineHeight: 1 }}>{s.emoji}</span>
               {s.label}
 
               {isActive && (
@@ -143,7 +157,7 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
         style={{
           margin: 0,
           fontFamily: "'Nunito', sans-serif",
-          fontSize: "13px",
+          fontSize: "11px",
           fontWeight: 700,
           letterSpacing: "0.1em",
           textTransform: "uppercase",
