@@ -113,9 +113,16 @@ html{scroll-behavior:smooth;}
 }
 .serv-card:hover{transform:translateY(-8px);box-shadow:0 26px 44px -20px rgba(239,92,33,.4);}
 .serv-imgwrap{position:relative;aspect-ratio:1/1;overflow:hidden;}
-.serv-imgwrap img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
-  opacity:0;transition:opacity 1s ease;}
-.serv-imgwrap img.on{opacity:1;}
+.serv-imgwrap .lazy-wrapper {
+  position: absolute;
+  inset: 0;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+.serv-imgwrap .lazy-wrapper.on {
+  opacity: 1;
+}
 .serv-pips{position:absolute;bottom:10px;left:0;right:0;display:flex;gap:6px;
   justify-content:center;z-index:2;}
 .serv-pips span{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.55);
