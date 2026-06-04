@@ -132,8 +132,8 @@ function ServiceCard({ service, index, svcId }) {
       <article className="serv-card reveal" style={{ "--d": index }}>
         <div className="serv-imgwrap">
           {service.images.map((src, idx) => (
-            <LazyImage key = {idx} className = {idx === i ? "on" : ""}
-              src = {src} alt = {service.name} />
+            <img key={idx} className={idx === i ? "on" : ""} src={src}
+              alt={service.name} loading="lazy" />
           ))}
           {n > 1 && (
             <div className="serv-pips">
