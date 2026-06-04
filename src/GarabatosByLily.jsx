@@ -261,7 +261,8 @@ function Notas() {
               rel="noopener noreferrer"
             >
               <div className="nota-imgwrap">
-                <img src={nota.src} alt={nota.title} loading="lazy" />
+                <LazyImage src = {nota.src} alt = {nota.title} />
+                {/* <img src={nota.src} alt={nota.title} loading="lazy" /> */}
               </div>
               <div className="nota-body">
                 <h3>{nota.title}</h3>
