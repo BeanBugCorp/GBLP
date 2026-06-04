@@ -94,10 +94,13 @@ function Bio() {
         </div>
         <div className="bio-text reveal" style={{ "--d": 1 }}>
           <p className="hola">¡Hola!</p>
-          <p>Soy Lily, creadora de Garabatos by Lily.</p>
+          <p>Soy Lily, Ingeniera Industrial de profesión y artista <span className="garab">garabatera</span> por vocación.</p>
           <p>
-            <span className="garab">Garabateo </span> ventanas, paredes,
-            acuarelas y más.
+            A través de mis garabatos en ventanas, paredes y otros espacios inesperados, 
+            ayudo a empresas, negocios y personas a contar historias que conecten, inspiren y dejen una sonrisa.
+          </p>
+          <p>
+            ✨ Fun fact: En mi tiempo libre siempre me encontrarás garabateando en mis sketchbooks de viaje.
           </p>
         </div>
       </div>
@@ -281,8 +284,8 @@ export default function App() {
       <Hero />
       <Bio />
       <Servicios />
-      <Trabajo />
       <Colaboraciones />
+      <Trabajo />
       <Notas />
     </Layout>
   );
