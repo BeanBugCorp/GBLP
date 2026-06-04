@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Layout from "../Layout";
+import LazyImage from "../components/LazyImage";
 import ServicesSubnav from "../ServicesSubnav";
 import { CONTENT, SERVICE_IDS, SERVICE_META, SERVICES_DETAIL } from "../content";
 import "../styles/Services.css";
@@ -65,7 +66,7 @@ function ServiceCarousel({ images, name, color }) {
             key={i}
             className={`svc-carousel-slide${i === idx ? " active" : ""}`}
           >
-            <img src={src} alt={`${name} ${i + 1}`} loading="lazy" />
+            <LazyImage src = {src} alt = {`${name} ${i + 1}`} />
           </div>
         ))}
 
