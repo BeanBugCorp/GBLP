@@ -1,10 +1,10 @@
 // Home - Branding
-import lilyCover from "./assets/branding/lilypics/lilycover.JPG";
-import lily203 from "./assets/branding/lilypics/IMG_0203.JPG";
-import lily207 from "./assets/branding/lilypics/IMG_0207.JPG";
-import lily1611 from "./assets/branding/lilypics/IMG_1611.JPG";
-import lily1618 from "./assets/branding/lilypics/IMG_1618.JPG";
-import lily1621 from "./assets/branding/lilypics/IMG_1621.JPG";
+import lilyCover from "./assets/branding/lilypics/lilycover.avif";
+import lily203 from "./assets/branding/lilypics/IMG_0203.avif";
+import lily207 from "./assets/branding/lilypics/IMG_0207.avif";
+import lily1611 from "./assets/branding/lilypics/IMG_1611.avif";
+import lily1618 from "./assets/branding/lilypics/IMG_1618.avif";
+import lily1621 from "./assets/branding/lilypics/IMG_1621.avif";
 
 // Home - Servicios
 import hsg1 from "./assets/home/Servicios_Window1.jpeg";
