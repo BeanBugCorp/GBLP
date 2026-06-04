@@ -99,7 +99,7 @@ function ServiceGallery({ svcId, name }) {
 <div className="svc-gallery-grid">
         {images.map((src, i) => (
           <figure key={i} className="svc-gallery-fig">
-            <img src={src} alt={`${name} ${i + 1}`} loading="lazy" />
+            <LazyImage src = {src} alt = {`${name} ${i + 1}`} />
           </figure>
         ))}
       </div>
