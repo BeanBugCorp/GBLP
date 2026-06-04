@@ -294,9 +294,9 @@ export const SERVICES_DETAIL = {
       {
         title: "Ideal para:",
         items: [
-          "Temporadas — Mantén tu espacio actualizado con las festividades más importantes del año",
-          "Promociones o lanzamientos — Diseños completamente adaptados a tu marca y objetivos",
-          "Atemporal — Intervenciones que pueden quedarse de forma indefinida dando vida a tus ventanas",
+          "Temporadas: Mantén tu espacio actualizado con las festividades más importantes del año",
+          "Promociones o lanzamientos: Diseños completamente adaptados a tu marca y objetivos",
+          "Atemporal: Intervenciones que pueden quedarse de forma indefinida dando vida a tus ventanas",
         ],
       },
       {
@@ -316,8 +316,8 @@ export const SERVICES_DETAIL = {
       {
         title: "Ideal para:",
         items: [
-          "Negocios, oficinas o espacios comerciales — Refuerza el sentido de pertenencia y la identidad de tu marca",
-          "Selfie spots — Convierte una pared en una experiencia visual que invite a compartir en redes",
+          "Negocios, oficinas o espacios comerciales: Refuerza el sentido de pertenencia y la identidad de tu marca",
+          "Selfie spots: Convierte una pared en una experiencia visual que invite a compartir en redes",
         ],
       },
       {
@@ -341,9 +341,9 @@ export const SERVICES_DETAIL = {
       {
         title: "Ideal para:",
         items: [
-          "Lanzamientos de producto — Genera una experiencia memorable desde el primer momento",
-          "Festividades — Impulsa tus ventas con un valor agregado creativo",
-          "Aniversarios — Un detalle especial para consentir y fidelizar a tus clientes",
+          "Lanzamientos de producto: Genera una experiencia memorable desde el primer momento",
+          "Festividades: Impulsa tus ventas con un valor agregado creativo",
+          "Aniversarios: Un detalle especial para consentir y fidelizar a tus clientes",
         ],
       },
       {
@@ -385,14 +385,14 @@ export const PORTAFOLIO_SEASONS = [
     id: "halloween",
     emoji: "🎃",
     name: "Halloween",
-    accent: "#cc7a3b",
+    accent: "#ee7c25",
     photos: [ph1, ph2, ph3, ph4, ph5, ph6, ph7, ph8, ph9, ph10, ph11, ph12],
   },
   {
     id: "thanks",
     emoji: "🍂",
-    name: "Thanksgiving",
-    accent: "#d4944a",
+    name: "Otoño",
+    accent: "#a86e2c",
     photos: [pt1, pt2, pt3, pt4, pt5, pt6, pt7, pt8, pt9, pt10, pt11, pt12],
   },
   {
