@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from "react";
+import LazyImage from "../components/LazyImage";
 import Layout from "../Layout";
 import { PORTAFOLIO_SEASONS } from "../content";
 import "../styles/Portafolio.css";
@@ -76,7 +77,8 @@ export default function Portafolio() {
                   onClick={() => setLightbox(src)}
                   style={{ "--tilt": `${tilt}deg` }}
                 >
-                  <img src={src} alt={`${season.name} ${i + 1}`} loading="lazy" />
+                  <LazyImage src = {src} alt = {`${season.name} ${i+1}`} />
+                  {/* <img src={src} alt={`${season.name} ${i + 1}`} loading="lazy" /> */}
                 </button>
               </figure>
             );
