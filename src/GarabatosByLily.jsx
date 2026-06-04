@@ -196,7 +196,8 @@ function Trabajo() {
               className="gallery-fig reveal"
               style={{ "--d": idx % 3 }}
             >
-              <img src={item.src} alt={item.title} loading="lazy" />
+              <LazyImage src = {item.src} alt = {item.title} />
+              {/* <img src={item.src} alt={item.title} loading="lazy" /> */}
               <figcaption className="gallery-cap">
                 <span>{item.subtitle}</span>
                 <h3>{item.title}</h3>
