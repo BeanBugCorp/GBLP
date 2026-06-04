@@ -46,7 +46,8 @@ function Hero() {
       </h1>
       <div className="wrap">
         <div className="reveal">
-          <img className="hero-banner" src={CONTENT.hero.banner} alt="Garabatos by Lily" />
+          <LazyImage className = "hero-banner" src = {CONTENT.hero.banner} alt = "Garabatos by Lily" />
+          {/* <img className="hero-banner" src={CONTENT.hero.banner} alt="Garabatos by Lily" /> */}
         </div>
       </div>
     </header>
