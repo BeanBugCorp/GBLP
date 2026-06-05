@@ -7,7 +7,7 @@ import { CONTENT, SERVICE_IDS, SERVICE_META, SERVICES_DETAIL } from "../content"
 import "../styles/Services.css";
 
 // Window Painting gallery
-import wpEspejoRosa from "../assets/servicios/wp/espejo-rosa.jpg";
+import wpValentin9 from "../assets/servicios/wp/valentin9.avif";
 import wpMadres from "../assets/servicios/wp/madres.jpg";
 import wpMty from "../assets/servicios/wp/mty.jpg";
 import wpPump from "../assets/servicios/wp/pump.jpg";
@@ -23,8 +23,9 @@ import murSquiggleLily from "../assets/servicios/murales/squiggle-lily.jpg";
 import murTelvista from "../assets/servicios/murales/telvista.jpg";
 
 // Activaciones gallery
-import actAdidasLily from "../assets/servicios/acts/adidas-lily.jpg";
-import actAdidasVentana from "../assets/servicios/acts/adidas-ventana.jpg";
+import actClinique1 from "../assets/servicios/acts/clinique2.avif";
+import actLulumelon from "../assets/home/CMT_Lulumelon.avif";
+import actJomalone from "../assets/home/CMT_JoMalone.avif";
 import actFerragamoBolsas from "../assets/servicios/acts/ferragamo-bolsas.jpg";
 import actFerragamoLily from "../assets/servicios/acts/ferragamo-lily.jpg";
 import actJoMaloneLily from "../assets/servicios/acts/jomalone-lily.jpg";
@@ -46,9 +47,9 @@ function buildMailto(serviceName) {
 }
 
 const GALLERY_IMAGES = {
-  window:       [wpEspejoRosa, wpMadres, wpMty, wpPump, wpVal, wpXmas],
+  window:       [wpValentin9, wpMadres, wpMty, wpPump, wpVal, wpXmas],
   murales:      [murBwLily, murFlor, murJacAzul, murJacLily, murSquiggleLily, murTelvista],
-  activaciones: [actAdidasLily, actAdidasVentana, actFerragamoBolsas, actFerragamoLily, actJoMaloneLily, actJoMaloneLily2],
+  activaciones: [actClinique1, actLulumelon, actFerragamoBolsas, actFerragamoLily, actJoMaloneLily, actJomalone],
 };
 
 /* Simple carousel for the right column */
