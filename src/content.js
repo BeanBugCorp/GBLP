@@ -248,7 +248,7 @@ export const CONTENT = {
     { name: "Clinique",    desc: "Activación de marca" },
     { name: "Ferragamo",   desc: "Activación de lujo" },
     { name: "Jo Malone",   desc: "Activación de lujo" },
-    { name: "CFE",         desc: "Mural corporativo" },
+    { name: "CESPT",         desc: "Window painting" },
     { name: "Lululemon",   desc: "Activación de marca" },
     { name: "Telvista",    desc: "Mural corporativo" },
   ],

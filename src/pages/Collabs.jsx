@@ -11,7 +11,7 @@ import pollolocoImg from "../assets/collabs/polloloco.jpeg";
 import cliniqueImg  from "../assets/collabs/clinique.jpeg";
 import ferragamoImg from "../assets/collabs/ferragamo.jpeg";
 import jomaloneImg  from "../assets/collabs/jomalone.jpeg";
-import cfeImg       from "../assets/collabs/cfe.jpeg";
+import cesptImg       from "../assets/collabs/cespt.jpeg";
 import lululemonImg from "../assets/collabs/lululemon.jpeg";
 import telvistaImg  from "../assets/collabs/telvista.jpeg";
 
@@ -23,7 +23,7 @@ const COLLAB_IMAGES = [
   cliniqueImg,
   ferragamoImg,
   jomaloneImg,
-  cfeImg,
+  cesptImg,
   lululemonImg,
   telvistaImg,
 ];
