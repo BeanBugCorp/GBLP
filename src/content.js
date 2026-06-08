@@ -28,6 +28,18 @@ import hcmt_navidad from "./assets/home/CMT_Navidad.avif";
 import hcmt_snoppy from "./assets/home/CMT_Snoppy.avif";
 import hcmt_telvista from "./assets/home/CMT_Telvista.avif";
 
+// Home - collab logos
+import adidasLogo from "./assets/collabs/logos/adidas-logo.png";
+import cesptLogo from "./assets/collabs/logos/cespt-logo.png";
+import cliniqueLogo from "./assets/collabs/logos/clinique-logo.png";
+import ferragamoLogo from "./assets/collabs/logos/ferragamo-logo.png";
+import joMaloneLogo from "./assets/collabs/logos/jomalone-logo.webp";
+import lululemonLogo from "./assets/collabs/logos/lululemon-logo.png";
+import marriottLogo from "./assets/collabs/logos/marriott-logo.png";
+import macLogo from "./assets/collabs/logos/mac-logo.png";
+import pollolocoLogo from "./assets/collabs/logos/polloloco-logo.png";
+import telvistaLogo from "./assets/collabs/logos/telvista-logo.png";
+
 // portafolio — valentin
 import pv1 from "./assets/portafolio/valentin/v1.jpeg";
 import pv2 from "./assets/portafolio/valentin/v2.jpeg";
@@ -227,16 +239,16 @@ export const CONTENT = {
 
   // --- Colaboraciones (infinite logo carousel) ------------------------------
   colaboraciones: [
-    "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Lululemon_Athletica_logo.svg/3840px-Lululemon_Athletica_logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail",
-    "https://cdn.freebiesupply.com/logos/large/2x/marriott-logo-png-transparent.png",
-    "https://1000logos.net/wp-content/uploads/2021/04/MAC-Cosmetics-logo.png",
-    "https://cdn.freebiesupply.com/logos/large/2x/el-pollo-loco-2-logo-png-transparent.png",
-    "https://1000marcas.net/wp-content/uploads/2020/03/Clinique-Logo-1.png",
-    "https://upload.wikimedia.org/wikipedia/commons/e/e7/Salvatore_Ferragamo_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original",
-    "https://1000marcas.net/wp-content/uploads/2024/02/Adidas-Logo.png",
-    "https://iconlogovector.com/uploads/images/2025/12/lg-692f6a046edc7-Jo-Malone.webp",
-    "https://res.cloudinary.com/devex/image/fetch/ar_1:1,b_transparent,c_pad,f_auto,q_auto,w_160/https://neo-assets.s3.amazonaws.com/assets/0141/0787/e81e13bf9d2ad3c0160332f2e8631bcd.png",
-    "https://images.seeklogo.com/logo-png/13/2/telvista-logo-png_seeklogo-137322.png",
+    adidasLogo,
+    marriottLogo,
+    macLogo,
+    pollolocoLogo,
+    cliniqueLogo,
+    ferragamoLogo,
+    joMaloneLogo,
+    cesptLogo,
+    lululemonLogo,
+    telvistaLogo,
   ],
 
   // --- Collabs gallery page --------------------------------------------------
