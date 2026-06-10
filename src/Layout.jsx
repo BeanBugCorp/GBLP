@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { MdMail, MdClose, MdChat } from "react-icons/md";
 import { AiOutlineInstagram } from "react-icons/ai";
-import { FaTiktok } from "react-icons/fa";
+import { FaTiktok, FaWhatsapp } from "react-icons/fa";
 import { useLocation } from "react-router-dom";
 import "./styles/Layout.css";
 import logoAzul from "./assets/logo-azul.png";
@@ -112,10 +112,17 @@ function ContactFab() {
       icon: <MdMail size={20} color="white" aria-hidden="true" />,
     },
     {
+      label: "WhatsApp",
+      href: "https://wa.me/526647699736",
+      color: "#25D366",
+      pos: "translate(43px,-74px)",
+      icon: <FaWhatsapp size={20} color="white" aria-hidden="true" />,
+    },
+    {
       label: "Instagram",
       href: CONTENT.brand.instagram,
       color: "#C13584",
-      pos: "translate(60px,-60px)",
+      pos: "translate(74px,-43px)",
       icon: <AiOutlineInstagram size={20} color="white" aria-hidden="true" />,
     },
     {
