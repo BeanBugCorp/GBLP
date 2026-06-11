@@ -1,7 +1,7 @@
 /* ===== COLLABS GALLERY PAGE — art gallery wall ===== */
 .collabs-page {
   background: var(--crema);
-  min-height: 100vh;
+  /* min-height: 100vh; */
   overflow-x: hidden;
 }
 
