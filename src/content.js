@@ -256,13 +256,13 @@ export const CONTENT = {
     { name: "Adidas",      desc: "Activación de marca" },
     { name: "Marriott",    desc: "Activación corporativa" },
     { name: "MAC",         desc: "Activación de marca" },
-    { name: "Pollo Loco",  desc: "Activación de marca" },
+    { name: "Pollo Loco",  desc: "Window painting" },
     { name: "Clinique",    desc: "Activación de marca" },
     { name: "Ferragamo",   desc: "Activación de lujo" },
     { name: "Jo Malone",   desc: "Activación de lujo" },
     { name: "CESPT",         desc: "Window painting" },
     { name: "Lululemon",   desc: "Activación de marca" },
-    { name: "Telvista",    desc: "Mural corporativo" },
+    { name: "Xolos",    desc: "Window painting" },
   ],
 
   // --- Notas Importantes (press / links) ------------------------------------

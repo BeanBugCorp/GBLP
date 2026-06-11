@@ -4,16 +4,16 @@ import LazyImage from "../components/LazyImage";
 import "../styles/GarabatosByLily.css";
 import "../styles/Collabs.css";
 
-import adidasImg    from "../assets/collabs/adidas.jpeg";
-import marriottImg  from "../assets/collabs/marriott.jpeg";
-import macImg       from "../assets/collabs/mac.jpeg";
-import pollolocoImg from "../assets/collabs/polloloco.jpeg";
-import cliniqueImg  from "../assets/collabs/clinique.jpeg";
-import ferragamoImg from "../assets/collabs/ferragamo.jpeg";
-import jomaloneImg  from "../assets/collabs/jomalone.jpeg";
-import cesptImg       from "../assets/collabs/cespt.jpeg";
-import lululemonImg from "../assets/collabs/lululemon.jpeg";
-import telvistaImg  from "../assets/collabs/telvista.jpeg";
+import adidasImg    from "../assets/collabs/adidas.avif";
+import marriottImg  from "../assets/collabs/marriott.avif";
+import macImg       from "../assets/collabs/mac.avif";
+import pollolocoImg from "../assets/collabs/polloLoco.avif";
+import cliniqueImg  from "../assets/collabs/clinique.avif";
+import ferragamoImg from "../assets/collabs/ferragamo.avif";
+import jomaloneImg  from "../assets/collabs/joMalone.avif";
+import cesptImg       from "../assets/collabs/cespt.avif";
+import lululemonImg from "../assets/collabs/lululemon.avif";
+import xolosImg  from "../assets/collabs/xolos.avif";
 
 const COLLAB_IMAGES = [
   adidasImg,
@@ -25,7 +25,7 @@ const COLLAB_IMAGES = [
   jomaloneImg,
   cesptImg,
   lululemonImg,
-  telvistaImg,
+  xolosImg,
 ];
 
 const COLLAB_LAYOUT = [
