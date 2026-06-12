@@ -145,7 +145,7 @@ function ServiceSection({ service, svcId }) {
             ))}
 
             <div className="svc-cta">
-              <a href={buildMailto(service.name)} className="svc-btn">
+              <a href={buildMailto(service.name)} className="svc-btn" aria-label={`Envia un correo para cotizar el servicio ${service.name}`}>
                 Cotiza este servicio
               </a>
             </div>
@@ -233,7 +233,7 @@ export default function Services() {
               Cada proyecto es único, y las mejores ideas empiezan con una conversación ✨<br /> <br />
               Cuéntame lo que imaginas y lo transformamos en algo increíble.
             </p>
-            <a href={buildMailto("Otros Proyectos")} className="svc-otros-btn">
+            <a href={buildMailto("Otros Proyectos")} className="svc-otros-btn" aria-label="Envia un correo para cotizar Otros servicios">
               👉 Solicitar Cotización
             </a>
           </div>
