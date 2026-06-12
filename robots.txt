@@ -74,4 +74,4 @@ Allow: /
 
 
 # Sitemap
-# Sitemap: https://yourdomain.com/sitemap.xml
+# Sitemap: https://www.garabatosbylily.com//sitemap.xml
