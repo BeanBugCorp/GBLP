@@ -1,0 +1,77 @@
+# Block AI training crawlers
+## OpenAI
+User-agent: GPTBot
+Disallow: /
+
+## Anthropic (Claude)
+User-agent: ClaudeBot
+Disallow: /
+
+## Google AI (Gemini training)
+User-agent: Google-Extended
+Disallow: /
+
+## Meta AI
+User-agent: FacebookBot
+Disallow: /
+
+## Apple
+User-agent: Applebot-Extended
+Disallow: /
+
+## Amazon
+User-agent: Amazonbot
+Disallow: /
+
+## Common AI scrapers
+User-agent: CCBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: img2dataset
+Disallow: /
+
+# Allow search engines 
+## Google
+User-agent: Googlebot
+Allow: /
+
+## Bing (also powers Yahoo, DuckDuckGo, and Ecosia results)
+User-agent: Bingbot
+Allow: /
+
+## Apple (Safari search suggestions & Spotlight)
+User-agent: Applebot
+Allow: /
+
+## DuckDuckGo (independent crawler)
+User-agent: DuckDuckBot
+Allow: /
+
+## Yandex (Russian search engine)
+User-agent: YandexBot
+Allow: /
+
+## Baidu (Chinese search engine)
+User-agent: Baiduspider
+Allow: /
+
+## Brave Search
+User-agent: BraveBot
+Allow: /
+
+# General rule for public
+user-agent: *
+Allow: /
+
+
+# Sitemap
+# Sitemap: https://yourdomain.com/sitemap.xml
