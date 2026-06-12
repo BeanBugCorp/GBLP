@@ -223,7 +223,7 @@
 .svc-carousel-dots {
   display: flex;
   justify-content: center;
-  gap: 8px;
+  gap: 16px;
 }
 
 .svc-carousel-dots button {
