@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles/ServicesSubnav.css"
 
 const SERVICES = [
   {
@@ -50,40 +51,8 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
   };
 
   return (
-    <nav
-      aria-label="Servicios"
-      style={{
-        display: "flex",
-        flexDirection: "column",
-        alignItems: "center",
-        gap: "8px",
-        padding: "12px 16px 8px",
-        background: "rgba(255, 246, 230, 0.98)",
-        backdropFilter: "blur(10px)",
-      }}
-    >
-      <style>{`
-        @media (max-width: 600px) {
-          .services-subnav-row { gap: 15px !important; padding-bottom: 8px !important; }
-          .services-subnav-btn {
-            padding: 5px 8px !important;
-            font-size: 11px !important;
-            gap: 4px !important;
-          }
-          .services-subnav-emoji { font-size: 13px !important; }
-        }
-      `}</style>
-      <div
-        className="services-subnav-row"
-        style={{
-          display: "flex",
-          gap: "18px",
-          paddingBottom: "12px",
-          alignItems: "center",
-          justifyContent: "center",
-          flexWrap: "wrap",
-        }}
-      >
+    <nav aria-label="Servicios" className = "nav">
+      <div className="services-subnav-row">
         {SERVICES.map((s, i) => {
           const isActive = active === s.id;
           const isHovered = hovering === s.id;
@@ -128,7 +97,7 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
                 outline: "none",
               }}
             >
-              <span className="services-subnav-emoji" style={{ fontSize: "18px", lineHeight: 1 }}>{s.emoji}</span>
+              <span className="services-subnav-emoji">{s.emoji}</span>
               {s.label}
 
               {isActive && (
