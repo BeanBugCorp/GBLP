@@ -175,18 +175,6 @@
   align-self: start;
 }
 
-.svc-carousel--window {
-  --color: #ef5c21;
-}
-
-.svc-carousel--murales {
-  --color: #47b1b1;
-}
-
-.svc-carousel--activaciones {
-  --color: #e9619e;
-}
-
 .svc-carousel {
   display: flex;
   flex-direction: column;

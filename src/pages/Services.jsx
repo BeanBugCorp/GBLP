@@ -60,9 +60,7 @@ function ServiceCarousel({ images, name, color }) {
   const next = () => setIdx((i) => (i + 1) % n);
 
   return (
-    <div 
-      className={`svc-carousel svc-carousel--${name}`}
-    >
+    <div className="svc-carousel">
       <div className="svc-carousel-track">
         {images.map((src, i) => (
           <div
