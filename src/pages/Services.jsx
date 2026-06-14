@@ -117,8 +117,7 @@ function ServiceSection({ service, svcId }) {
   return (
     <section
       id={`section-${svcId}`}
-      className="svc-section"
-      style={{ "--svc-color": meta.color, "--svc-bg": meta.bg }}
+      className={`svc-section svc-section--${svcId}`}
     >
       <div className="wrap">
         {/* Title */}

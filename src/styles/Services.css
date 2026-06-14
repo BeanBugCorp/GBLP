@@ -42,6 +42,21 @@
 }
 
 /* ===== Individual service section ===== */
+.svc-section--window {
+  --svc-color: #ef5c21;
+  --svc-bg: #fff7f3;
+}
+
+.svc-section--murales {
+  --svc-color: #47b1b1;
+  --svc-bg: #f3fbfb;
+}
+
+.svc-section--activaciones {
+  --svc-color: #e9619e;
+  --svc-bg: #fff3f7;
+}
+
 .svc-section {
   padding: clamp(3.5rem, 9vw, 7rem) 0;
   background: var(--svc-bg);
