@@ -61,7 +61,7 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
           return (
             <button
               key={s.id}
-              className="services-subnav-btn"
+              className= {`services-subnav-btn services-subnav-btn--${s.id}${isFilled ? ' is-filled' : ''}${isActive ? ' is-active' : ''}`}
               onClick={() => handleSelect(s.id)}
               onMouseEnter={() => setHovering(s.id)}
               onMouseLeave={() => setHovering(null)}
@@ -69,33 +69,6 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
               onBlur={() => setHovering(null)}
               aria-pressed={isActive}
               aria-label={`${s.label} — ${s.sublabel}`}
-              style={{
-                padding: "6px 20px",
-                borderRadius: "8px",
-                border: `3px solid ${s.color}`,
-                cursor: "pointer",
-                fontFamily: "'California Vibes', cursive, sans-serif",
-                fontSize: "clamp(13px, 2vw, 18px)",
-                whiteSpace: "nowrap",
-                background: isFilled ? s.color : "white",
-                color: isFilled ? "white" : s.color,
-                transform: isActive
-                  ? "rotate(0deg) scale(1.08)"
-                  : isHovered
-                  ? "rotate(0deg) scale(1.05)"
-                  : `rotate(${BASE_ROTATIONS[i]}) scale(1)`,
-                boxShadow: isActive
-                  ? `4px 5px 0px ${s.color}, 0 8px 24px ${s.shadow}`
-                  : isHovered
-                  ? `3px 3px 0px ${s.color}, 0 4px 16px ${s.shadow}`
-                  : `3px 3px 0px ${s.shadow}`,
-                display: "flex",
-                alignItems: "center",
-                gap: "6px",
-                position: "relative",
-                transition: "all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1)",
-                outline: "none",
-              }}
             >
               <span className="services-subnav-emoji">{s.emoji}</span>
               {s.label}
