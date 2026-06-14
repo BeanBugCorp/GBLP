@@ -77,17 +77,6 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
                 <span
                   aria-hidden="true"
                   className = "services-subnav-emoji-active"
-                  // style={{
-                  //   position: "absolute",
-                  //   top: "-10px",
-                  //   right: "-10px",
-                  //   background: "#ef5c21",
-                  //   width: "20px",
-                  //   height: "20px",
-                  //   borderRadius: "50%",
-                  //   border: "2px solid white",
-                  //   boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
-                  // }}
                 />
               )}
             </button>
@@ -98,16 +87,6 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
       <p
         aria-live="polite"
         className={`sub-label sub-label--${displayedService.id}`}
-        // style={{
-        //   margin: 0,
-        //   fontFamily: "'Nunito', sans-serif",
-        //   fontSize: "11px",
-        //   fontWeight: 700,
-        //   letterSpacing: "0.1em",
-        //   textTransform: "uppercase",
-        //   color: displayedService.color,
-        //   transition: "color 0.2s ease",
-        // }}
       >
         ✦ {displayedService.sublabel} ✦
       </p>

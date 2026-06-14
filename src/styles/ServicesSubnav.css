@@ -75,15 +75,6 @@
     color: var(--color);/* isFilled ? white : s.color; */
     transform: rotate(var(--rotation)) scale(1);
     box-shadow: 3px 3px 0px var(--shadow);
-    /* transform: isActive
-        ? rotate(0deg) scale(1.08)
-            : isHovered
-            ? rotate(0deg) scale(1.05) */
-    /* boxShadow: isActive
-            ? `4px 5px 0px ${s.color}, 0 8px 24px ${s.shadow}`
-            : isHovered
-            ? `3px 3px 0px ${s.color}, 0 4px 16px ${s.shadow}`
-            : `3px 3px 0px ${s.shadow}`; */
     display: flex;
     align-items: center;
     gap: 6px;
