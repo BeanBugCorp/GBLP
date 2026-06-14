@@ -76,17 +76,18 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
               {isActive && (
                 <span
                   aria-hidden="true"
-                  style={{
-                    position: "absolute",
-                    top: "-10px",
-                    right: "-10px",
-                    background: "#ef5c21",
-                    width: "20px",
-                    height: "20px",
-                    borderRadius: "50%",
-                    border: "2px solid white",
-                    boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
-                  }}
+                  className = "services-subnav-emoji-active"
+                  // style={{
+                  //   position: "absolute",
+                  //   top: "-10px",
+                  //   right: "-10px",
+                  //   background: "#ef5c21",
+                  //   width: "20px",
+                  //   height: "20px",
+                  //   borderRadius: "50%",
+                  //   border: "2px solid white",
+                  //   boxShadow: "0 2px 6px rgba(0,0,0,0.2)",
+                  // }}
                 />
               )}
             </button>

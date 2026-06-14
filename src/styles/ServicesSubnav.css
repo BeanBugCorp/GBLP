@@ -33,10 +33,22 @@
     font-size: 13px !important;
 }
 
+.services-subnav-emoji-active {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ef5c21;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
 .services-subnav-btn--window {
-    --color: #ef5c21;
-    --shadow: #ef5c2188; 
-    --rotation: -3deg;
+--color: #ef5c21;
+--shadow: #ef5c2188; 
+--rotation: -3deg;
 }
 
 .services-subnav-btn--murales {
@@ -96,3 +108,4 @@
     transform: rotate(0deg) scale(1.08);
     box-shadow: 4px 5px 0px var(--color), 0 8px 24px var(--shadow);
 }
+
