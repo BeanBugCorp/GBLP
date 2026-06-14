@@ -49,14 +49,14 @@ const ROWS = [
   [8, 9],
 ];
 
-function CollabCanvas({ collab, img, layout, delay }) {
+function CollabCanvas({ collab, img, layout, delay, index }) {
   const { name, desc } = collab;
   const { size, tilt, frame } = layout;
 
   return (
     <div
-      className={`collab-canvas ${size}`}
-      style={{ "--tilt": `${tilt}deg`, animationDelay: `${delay}s` }}
+      className={`collab-canvas ${size} collab-item-${index}`}
+      // style={{ "--tilt": `${tilt}deg`, animationDelay: `${delay}s`}}
     >
       <div className="collab-frame">
         <div className="collab-frame-border" style={{ "--frame-color": frame }}>
@@ -89,6 +89,7 @@ export default function Collabs() {
                   img={COLLAB_IMAGES[idx]}
                   layout={COLLAB_LAYOUT[idx]}
                   delay={0.05 + idx * 0.07}
+                  index={idx}
                 />
               ))}
             </div>

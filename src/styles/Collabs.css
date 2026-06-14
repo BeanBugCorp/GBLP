@@ -90,6 +90,67 @@
   align-items: flex-end;
 }
 
+/* Collab items for CSP compliance. It follows the structure of COLLAB_LAYOUT */
+.collab-item-0 {
+  --tilt: -3deg;
+  animation-delay: 0.05s;
+  --frame-color: #055757;
+}
+
+.collab-item-1 {
+  --tilt: 1.5deg;
+  animation-delay: 0.12s;
+  --frame-color: #b68a12;
+}
+
+.collab-item-2 {
+  --tilt: 3.5deg;
+  animation-delay: 0.19s;
+  --frame-color: #a25d70;
+}
+
+.collab-item-3 {
+  --tilt: -2deg;
+  animation-delay: 0.26s;
+  --frame-color: #b14115;
+}
+
+.collab-item-4 {
+  --tilt: 2.5deg;
+  animation-delay: 0.33s;
+  --frame-color: #055757;
+}
+
+.collab-item-5 {
+  --tilt: -2.5deg;
+  animation-delay: 0.4s;
+  --frame-color: #b68a12;
+}
+
+.collab-item-6 {
+  --tilt: 1deg;
+  animation-delay: 0.47s;
+  --frame-color: #a25d70;
+}
+
+.collab-item-7 {
+  --tilt: -4deg;
+  animation-delay: 0.54s;
+  --frame-color: #b14115;
+}
+
+.collab-item-8 {
+  --tilt: 2deg;
+  animation-delay: 0.61s;
+  --frame-color: #055757;
+}
+
+.collab-item-9 {
+  --tilt: -1.5deg;
+  animation-delay: 0.68s;
+  --frame-color: #b68a12;
+}
+
 /* — Canvas card — */
 .collab-canvas {
   position: relative;
