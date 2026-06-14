@@ -109,3 +109,25 @@
     box-shadow: 4px 5px 0px var(--color), 0 8px 24px var(--shadow);
 }
 
+.sub-label--window {
+    --color: #ef5c21;
+}
+
+.sub-label--murales {
+    --color: #47b1b1;
+}
+
+.sub-label--activaciones {
+    --color: #e9619e;
+}
+
+.sub-label {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color);
+    transition: color 0.2s ease;
+}

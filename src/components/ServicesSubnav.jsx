@@ -97,16 +97,17 @@ export default function ServicesSubnav({ active: activeProp, onChange }) {
 
       <p
         aria-live="polite"
-        style={{
-          margin: 0,
-          fontFamily: "'Nunito', sans-serif",
-          fontSize: "11px",
-          fontWeight: 700,
-          letterSpacing: "0.1em",
-          textTransform: "uppercase",
-          color: displayedService.color,
-          transition: "color 0.2s ease",
-        }}
+        className={`sub-label sub-label--${displayedService.id}`}
+        // style={{
+        //   margin: 0,
+        //   fontFamily: "'Nunito', sans-serif",
+        //   fontSize: "11px",
+        //   fontWeight: 700,
+        //   letterSpacing: "0.1em",
+        //   textTransform: "uppercase",
+        //   color: displayedService.color,
+        //   transition: "color 0.2s ease",
+        // }}
       >
         ✦ {displayedService.sublabel} ✦
       </p>
