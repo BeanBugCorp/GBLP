@@ -54,12 +54,9 @@ function CollabCanvas({ collab, img, layout, delay, index }) {
   const { size, tilt, frame } = layout;
 
   return (
-    <div
-      className={`collab-canvas ${size} collab-item-${index}`}
-      // style={{ "--tilt": `${tilt}deg`, animationDelay: `${delay}s`}}
-    >
+    <div className={`collab-canvas ${size} collab-item-${index}`}>
       <div className="collab-frame">
-        <div className="collab-frame-border" style={{ "--frame-color": frame }}>
+        <div className="collab-frame-border">
           <div className="collab-canvas-surface">
             <LazyImage src = {img} alt = {name} />
             <div className="collab-canvas-label">
