@@ -7,7 +7,8 @@ export default defineConfig({
   server: {
     headers: {
       'Cross-Origin-Opener-Policy': 'same-origin-allow-popups',
-      'X-Content-Type-Options': 'nosniff'
+      'X-Content-Type-Options': 'nosniff',
+      'content-security-policy-report-only': "defatul-src 'self'; font-src 'self' https://fonts.gstatic.com; style-src 'self' https://fonts.googleapis.com; script-src 'self'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-aciton 'self'"
     }
   }
 })
