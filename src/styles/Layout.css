@@ -22,10 +22,12 @@
   line-height:1;transition:transform .2s ease;
 }
 .navbar a:hover{transform:translateY(-3px) rotate(-3deg);}
-.nl-portafolio{color:#47b1b1;}
-.nl-faq{color:#e8ae0c;}
-.nl-servicios{color:#ef5c21;}
-.nl-colab{color:#f19edc;}
+
+.navbar .nl-portafolio{ color: var(--amarillo-fuerte); }
+.navbar .nl-faq{ color: var(--rosa-fuerte); }
+.navbar .nl-servicios{ color: var(--azul); }
+.navbar .nl-colab{ color: var(--naranja); }
+
 @media (max-width:680px){
   .navbar-inner{gap:.45rem 1.1rem;}
   .navbar a{font-size:clamp(1.15rem,4.6vw,1.6rem);}
