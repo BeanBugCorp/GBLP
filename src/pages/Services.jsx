@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Layout from "../Layout";
 import LazyImage from "../components/LazyImage";
-import ServicesSubnav from "../ServicesSubnav";
+import ServicesSubnav from "../components/ServicesSubnav";
 import { CONTENT, SERVICE_IDS, SERVICE_META, SERVICES_DETAIL } from "../content";
 import "../styles/Services.css";
 
