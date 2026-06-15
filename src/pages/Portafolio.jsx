@@ -40,10 +40,7 @@ export default function Portafolio() {
                 onClick={() => setActive(i)}
                 aria-label={s.name}
               >
-                <span
-                  className="pg-emoji"
-                  style={{ transform: i === active ? "scale(1.18)" : "scale(1)" }}
-                >
+                <span className={`pg-emoji ${i === active ? 'active' : ''}`}>
                   {s.emoji}
                 </span>
               </button>
