@@ -58,8 +58,7 @@ export default function Portafolio() {
             return (
               <figure
                 key={i}
-                className="pg-item"
-                style={{ animationDelay: `${i * 55}ms` }}
+                className={`pg-item anim-${i}`}
               >
                 <button
                   className="pg-card"
