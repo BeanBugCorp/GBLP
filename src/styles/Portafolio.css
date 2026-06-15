@@ -145,18 +145,18 @@
 @media (min-width: 640px)  { .pg-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
 @media (min-width: 960px)  { .pg-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; } }
 
-.pg-item.anim-0 { animation-delay: calc(1*55ms) ; }
-.pg-item.anim-1 { animation-delay: calc(2*55ms) ; }
-.pg-item.anim-2 { animation-delay: calc(3*55ms) ; }
-.pg-item.anim-3 { animation-delay: calc(4*55ms) ; }
-.pg-item.anim-4 { animation-delay: calc(5*55ms) ; }
-.pg-item.anim-5 { animation-delay: calc(6*55ms) ; }
-.pg-item.anim-6 { animation-delay: calc(7*55ms) ; }
-.pg-item.anim-7 { animation-delay: calc(8*55ms) ; }
-.pg-item.anim-8 { animation-delay: calc(9*55ms) ; }
-.pg-item.anim-9 { animation-delay: calc(10*55ms) ; }
-.pg-item.anim-10 { animation-delay: calc(11*55ms) ; }
-.pg-item.anim-11 { animation-delay: calc(12*55ms) ; }
+.pg-item.anim-0 { animation-delay: calc(1*55ms);    --tilt: -1.4deg; }
+.pg-item.anim-1 { animation-delay: calc(2*55ms);    --tilt: 1.2deg; }
+.pg-item.anim-2 { animation-delay: calc(3*55ms);    --tilt: -0.5deg; }
+.pg-item.anim-3 { animation-delay: calc(4*55ms);    --tilt: -1.4deg; }
+.pg-item.anim-4 { animation-delay: calc(5*55ms);    --tilt: 1.2deg; }
+.pg-item.anim-5 { animation-delay: calc(6*55ms);    --tilt: -0.5deg; }
+.pg-item.anim-6 { animation-delay: calc(7*55ms);    --tilt: -1.4deg; }
+.pg-item.anim-7 { animation-delay: calc(8*55ms);    --tilt: 1.2deg; }
+.pg-item.anim-8 { animation-delay: calc(9*55ms);    --tilt: -0.5deg; }
+.pg-item.anim-9 { animation-delay: calc(10*55ms);   --tilt: -1.4deg; }
+.pg-item.anim-10 { animation-delay: calc(11*55ms);  --tilt: 1.2deg; }
+.pg-item.anim-11 { animation-delay: calc(12*55ms);  --tilt: -0.5deg; }
 
 .pg-item {
   margin: 0;

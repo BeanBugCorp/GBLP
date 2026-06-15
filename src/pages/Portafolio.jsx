@@ -63,7 +63,6 @@ export default function Portafolio() {
                 <button
                   className="pg-card"
                   onClick={() => setLightbox(src)}
-                  style={{ "--tilt": `${tilt}deg` }}
                 >
                   <LazyImage src = {src} alt = {`${season.name} ${i+1}`} />
                 </button>
