@@ -22,10 +22,12 @@
   line-height:1;transition:transform .2s ease;
 }
 .navbar a:hover{transform:translateY(-3px) rotate(-3deg);}
-.nl-portafolio{color:#47b1b1;}
-.nl-faq{color:#e8ae0c;}
-.nl-servicios{color:#ef5c21;}
-.nl-colab{color:#f19edc;}
+
+.navbar .nl-portafolio{ color: var(--amarillo-fuerte); }
+.navbar .nl-faq{ color: var(--rosa-fuerte); }
+.navbar .nl-servicios{ color: var(--azul); }
+.navbar .nl-colab{ color: var(--naranja); }
+
 @media (max-width:680px){
   .navbar-inner{gap:.45rem 1.1rem;}
   .navbar a{font-size:clamp(1.15rem,4.6vw,1.6rem);}
@@ -52,6 +54,27 @@
              box-shadow .28s ease, background .28s ease;
 }
 .contact-fab-btn:hover{transform:scale(1.09);background:var(--azul);}
+
+.contact-fab-item--Email {
+  --bg: #D44638;
+  --pos: translate(0px, -85px);
+}
+
+.contact-fab-item--WhatsApp {
+  --bg: #25D366;
+  --pos: translate(43px, -74px);
+}
+
+.contact-fab-item--Instagram {
+  --bg: #C13584;
+  --pos: translate(74px, -43px);
+}
+
+.contact-fab-item--TikTok {
+  --bg: #010101;
+  --pos: translate(85px, 0px);
+}
+
 .contact-fab-item{
   position:absolute;bottom:0;left:0;
   width:clamp(42px,10vw,50px);height:clamp(42px,10vw,50px);
@@ -60,6 +83,7 @@
   box-shadow:0 8px 20px -6px rgba(0,0,0,.38);
   transform:translate(0,0) scale(0);opacity:0;
   transition:transform .35s cubic-bezier(.34,1.56,.64,1), opacity .25s ease;
+  background: var(--bg);
 }
 .contact-fab.open .contact-fab-item{
   transform:var(--pos) scale(1);opacity:1;
@@ -80,6 +104,9 @@
   opacity:0;pointer-events:none;
   transition:opacity .2s ease;
 }
+
+.contact-fab-item:hover {z-index: 2;}
+
 .contact-fab-item:hover .contact-fab-label{opacity:1;}
 
 /* ===== floating back-to-top button ===== */

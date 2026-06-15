@@ -1,0 +1,13 @@
+/* Branding */
+:root{
+  --crema:#fff6e6;
+  --azul:#47b1b1;
+  --amarillo:#f6ce5d;
+  --rosa:#ffbacd;
+  --naranja:#ef5c21;
+  --dark:#333333;
+  --rosa-fuerte:#ff8bab;
+  --amarillo-fuerte:#e3b124;
+  --script:'California Vibes', cursive;
+  --body:'Nunito Sans', system-ui, sans-serif;
+}

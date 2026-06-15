@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
 
+/* Seasons */
+
+.valentin {
+  --color: #e8a0b8;
+}
+
+.madres {
+  --color: #c47fc4;
+}
+
+.halloween {
+  --color: #ee7c25;
+}
+
+.thanks {
+  --color: #a86e2c;
+}
+
+.xmas {
+  --color: #4ba89c;
+}
+
+.atemp {
+  --color: #7fa8c9;
+}
+
 .pg-page {
   min-height: 100vh;
   font-family: 'Quicksand', sans-serif;
@@ -27,7 +53,7 @@
   line-height: 1.02;
   margin: 4px 0 10px;
   font-weight: 700;
-  color: #4a3a2a;
+  color: var(--color);
 }
 .pg-subtitle {
   font-family: var(--body);
@@ -54,6 +80,12 @@
   padding: 6px;
   box-shadow: 0 8px 22px rgba(120, 90, 50, 0.12), inset 0 0 0 1px rgba(120, 90, 50, 0.06);
 }
+.pg-pill.active-0 { transform: translateX(0%); }
+.pg-pill.active-1 { transform: translateX(100%); }
+.pg-pill.active-2 { transform: translateX(200%); }
+.pg-pill.active-3 { transform: translateX(300%); }
+.pg-pill.active-4 { transform: translateX(400%); }
+.pg-pill.active-5 { transform: translateX(500%); }
 .pg-pill {
   position: absolute;
   top: 6px;
@@ -63,7 +95,10 @@
   transition: transform 0.42s cubic-bezier(0.34, 1.56, 0.64, 1), background 0.3s ease;
   box-shadow: 0 4px 12px rgba(120, 90, 50, 0.25);
   z-index: 0;
+  background: var(--color);
+  width: calc((100% - 12px) / 6);
 }
+
 .pg-seg {
   position: relative;
   z-index: 1;
@@ -76,9 +111,13 @@
   line-height: 1;
   transition: color 0.3s ease;
 }
+.pg-emoji.active {
+  transform: scale(1.5); 
+}
 .pg-emoji {
   display: inline-block;
   transition: transform 0.42s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform: scale(1);
 }
 .pg-season-name {
   text-align: center;
@@ -87,6 +126,7 @@
   font-weight: 700;
   margin: 14px 0 0;
   animation: pg-nameIn 0.45s ease both;
+  color: var(--color);
 }
 @keyframes pg-nameIn {
   from { opacity: 0; transform: translateY(6px) rotate(-1.5deg); }
@@ -105,6 +145,19 @@
 @media (min-width: 640px)  { .pg-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; } }
 @media (min-width: 960px)  { .pg-grid { grid-template-columns: repeat(4, 1fr); gap: 18px; } }
 
+.pg-item.anim-0 { animation-delay: calc(1*55ms);    --tilt: -1.4deg; }
+.pg-item.anim-1 { animation-delay: calc(2*55ms);    --tilt: 1.2deg; }
+.pg-item.anim-2 { animation-delay: calc(3*55ms);    --tilt: -0.5deg; }
+.pg-item.anim-3 { animation-delay: calc(4*55ms);    --tilt: -1.4deg; }
+.pg-item.anim-4 { animation-delay: calc(5*55ms);    --tilt: 1.2deg; }
+.pg-item.anim-5 { animation-delay: calc(6*55ms);    --tilt: -0.5deg; }
+.pg-item.anim-6 { animation-delay: calc(7*55ms);    --tilt: -1.4deg; }
+.pg-item.anim-7 { animation-delay: calc(8*55ms);    --tilt: 1.2deg; }
+.pg-item.anim-8 { animation-delay: calc(9*55ms);    --tilt: -0.5deg; }
+.pg-item.anim-9 { animation-delay: calc(10*55ms);   --tilt: -1.4deg; }
+.pg-item.anim-10 { animation-delay: calc(11*55ms);  --tilt: 1.2deg; }
+.pg-item.anim-11 { animation-delay: calc(12*55ms);  --tilt: -0.5deg; }
+
 .pg-item {
   margin: 0;
   opacity: 0;
@@ -121,7 +174,7 @@
   padding: 7px 7px 12px;
   border: none;
   cursor: pointer;
-  background: color-mix(in srgb, var(--season-accent) 62%, #fffdf8);
+  background: color-mix(in srgb, var(--color) 62%, #fffdf8);
   border-radius: 6px;
   transform: rotate(var(--tilt, 0deg));
   box-shadow: 0 6px 16px rgba(120, 90, 50, 0.14), 0 1px 0 rgba(120, 90, 50, 0.05);
@@ -169,7 +222,7 @@
   max-width: min(94vw, 1100px);
   max-height: 88vh;
   border-radius: 8px;
-  background: color-mix(in srgb, var(--season-accent) 62%, #fffdf8);
+  background: color-mix(in srgb, var(--color) 62%, #fffdf8);
   padding: 10px;
   box-shadow: 0 30px 80px rgba(0, 0, 0, 0.5);
   cursor: default;

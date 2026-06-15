@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import Layout from "../Layout";
 import LazyImage from "../components/LazyImage";
-import ServicesSubnav from "../ServicesSubnav";
+import ServicesSubnav from "../components/ServicesSubnav";
 import { CONTENT, SERVICE_IDS, SERVICE_META, SERVICES_DETAIL } from "../content";
 import "../styles/Services.css";
 
@@ -60,7 +60,7 @@ function ServiceCarousel({ images, name, color }) {
   const next = () => setIdx((i) => (i + 1) % n);
 
   return (
-    <div className="svc-carousel" style={{ "--svc-color": color }}>
+    <div className="svc-carousel">
       <div className="svc-carousel-track">
         {images.map((src, i) => (
           <div
@@ -115,8 +115,7 @@ function ServiceSection({ service, svcId }) {
   return (
     <section
       id={`section-${svcId}`}
-      className="svc-section"
-      style={{ "--svc-color": meta.color, "--svc-bg": meta.bg }}
+      className={`svc-section svc-section--${svcId}`}
     >
       <div className="wrap">
         {/* Title */}

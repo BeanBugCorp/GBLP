@@ -1,0 +1,124 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px 8px;
+    background: rgba(255, 246, 230, 0.98);
+    backdrop-filter: blur(10px);
+}
+
+@media (max-width: 600px) {
+    .services-subnav-row {
+        gap: 15px !important;
+        padding-bottom: 8px !important;
+    }
+    .services-subnav-btn {
+        padding: 5px 8px !important;
+        font-size: 11px !important;
+        gap: 4px !important;
+    }
+}
+
+.services-subnav-row {
+    display: flex;
+    gap: 18px;
+    padding-bottom: 12px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.services-subnav-emoji {
+    font-size: 13px !important;
+}
+
+.services-subnav-emoji-active {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ef5c21;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.services-subnav-btn--window {
+--color: #ef5c21;
+--shadow: #ef5c2188; 
+--rotation: -3deg;
+}
+
+.services-subnav-btn--murales {
+    --color: #47b1b1;
+    --shadow: #47b1b188; 
+    --rotation: 2deg;
+}
+
+.services-subnav-btn--activaciones {
+    --color: #e9619e;
+    --shadow: #e9619e88; 
+    --rotation: -1.5deg;
+}
+
+.services-subnav-btn {
+    padding: 6px 20px;
+    border-radius: 8px;
+    border: 3px solid var(--color);
+    cursor: pointer;
+    font-family: 'California Vibes', cursive, sans-serif;
+    font-size: clamp(13px, 2vw, 18px);
+    white-space: nowrap;
+    background: white ; /* isFilled ? s.color : white; */
+    color: var(--color);/* isFilled ? white : s.color; */
+    transform: rotate(var(--rotation)) scale(1);
+    box-shadow: 3px 3px 0px var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    position: relative;
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    outline: none;
+}
+
+.services-subnav-btn:hover {
+    transform: rotate(0deg) scale(1.08);
+    background: var(--color);
+    box-shadow: 3px 3px 0px var(--color), 0 4px 16px var(--shadow);
+    color: white;
+}
+/* This will win over :hover state, because it's last in the css file */
+.services-subnav-btn.is-filled {
+    background: var(--color);
+    color: white;
+}
+
+.services-subnav-btn.is-active {
+    transform: rotate(0deg) scale(1.08);
+    box-shadow: 4px 5px 0px var(--color), 0 8px 24px var(--shadow);
+}
+
+.sub-label--window {
+    --color: #ef5c21;
+}
+
+.sub-label--murales {
+    --color: #47b1b1;
+}
+
+.sub-label--activaciones {
+    --color: #e9619e;
+}
+
+.sub-label {
+    margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color);
+    transition: color 0.2s ease;
+}

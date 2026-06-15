@@ -6,6 +6,7 @@ import FAQ from './pages/FAQ'
 import Services from './pages/Services'
 import Collabs from './pages/Collabs'
 import Portafolio from './pages/Portafolio'
+import "./styles/main.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

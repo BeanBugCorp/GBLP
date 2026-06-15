@@ -91,10 +91,10 @@ function Bio() {
   return (
     <section className="bio">
       <div className="wrap bio-grid">
-        <div className="reveal" style={{ "--d": 0 }}>
+        <div className="reveal">
           <Carousel photos={CONTENT.bio.photos} />
         </div>
-        <div className="bio-text reveal" style={{ "--d": 1 }}>
+        <div className="bio-text reveal">
           <p className="hola">¡Hola!</p>
           <p>Soy Lily, Ingeniera Industrial de profesión y artista <span className="garab">garabatera</span> por vocación.</p>
           <p>
@@ -129,8 +129,8 @@ function ServiceCard({ service, index, svcId }) {
   }, [n, index]);
 
   return (
-    <a href={`/servicios#section-${svcId}`} className="serv-card-link">
-      <article className="serv-card reveal" style={{ "--d": index }}>
+    <a href={`/servicios#section-${svcId}`} className="serv-card-link reveal">
+      <article className="serv-card reveal">
         <div className="serv-imgwrap">
           {service.images.map((src, idx) => (
             <LazyImage key = {idx} className = {idx === i ? "on" : "" } src = {src}
@@ -160,7 +160,7 @@ function Servicios() {
       <img src={ssPink}   className="squiggle sq-2" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
-          <h2 className="script-h" style={{ color: "var(--azul)" }}>Servicios</h2>
+          <h2 className="script-h servicios">Servicios</h2>
         </div>
         <div className="serv-grid">
           {CONTENT.servicios.map((s, idx) => (
@@ -186,7 +186,7 @@ function Trabajo() {
       <img src={ssOrange} className="squiggle sq-8" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
-          <h2 className="script-h" style={{ color: "var(--rosa-fuerte)" }}>
+          <h2 className="script-h trabajo">
             Conoce mi trabajo
           </h2>
         </div>
@@ -195,7 +195,6 @@ function Trabajo() {
             <figure
               key={idx}
               className="gallery-fig reveal"
-              style={{ "--d": idx % 3 }}
             >
               <LazyImage src = {item.src} alt = {item.title} />
               <figcaption className="gallery-cap">
@@ -218,14 +217,14 @@ function Colaboraciones() {
   const logos = [...CONTENT.colaboraciones, ...CONTENT.colaboraciones];
   return (
     <section className="section" id="colaboraciones">
-      <div className="wrap">
+      <div className="wrap colaboraciones">
         <div className="section-head reveal">
-          <h2 className="script-h" style={{ color: "var(--azul)" }}>
+          <h2 className="script-h colaboraciones">
             Colaboraciones
           </h2>
         </div>
       </div>
-      <a href="/colaboraciones" aria-label="Ver colaboraciones" style={{ display: "block", textDecoration: "none" }}>
+      <a href="/colaboraciones" aria-label="Ver colaboraciones">
         <div className="marquee reveal">
           <div className="marquee-track">
             {logos.map((src, idx) => (
@@ -246,7 +245,7 @@ function Notas() {
     <section className="section" id="notas">
       <div className="wrap">
         <div className="section-head reveal">
-          <h2 className="script-h" style={{ color: "var(--amarillo-fuerte)" }}>
+          <h2 className="script-h notas">
             Notas Importantes
           </h2>
         </div>
@@ -255,7 +254,6 @@ function Notas() {
             <a
               key={idx}
               className="nota-card reveal"
-              style={{ "--d": idx }}
               href={nota.url}
               target="_blank"
               rel="noopener noreferrer"
