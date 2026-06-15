@@ -78,6 +78,9 @@ html{scroll-behavior:smooth;}
   background:rgba(255,255,255,.55);padding:0;transition:.2s;}
 .carousel-dots button.on{background:#fff;width:40px;border-radius:10px;}
 
+.bio-text.reveal {
+  --d: 1; 
+}
 .bio-text{max-width:560px;}
 .bio-text .hola{font-family:var(--script);font-weight:700;color:var(--naranja);padding-bottom:1rem;
   font-size:clamp(3rem,9vw,4.6rem);line-height:.9;margin:0;}

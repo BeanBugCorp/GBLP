@@ -91,10 +91,10 @@ function Bio() {
   return (
     <section className="bio">
       <div className="wrap bio-grid">
-        <div className="reveal" style={{ "--d": 0 }}>
+        <div className="reveal">
           <Carousel photos={CONTENT.bio.photos} />
         </div>
-        <div className="bio-text reveal" style={{ "--d": 1 }}>
+        <div className="bio-text reveal">
           <p className="hola">¡Hola!</p>
           <p>Soy Lily, Ingeniera Industrial de profesión y artista <span className="garab">garabatera</span> por vocación.</p>
           <p>
