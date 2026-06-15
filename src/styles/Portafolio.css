@@ -1,5 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=Quicksand:wght@400;500;600;700&display=swap');
 
+/* Seasons */
+
+.valentin {
+  --color: #e8a0b8;
+}
+
+.madres {
+  --color: #c47fc4;
+}
+
+.halloween {
+  --color: #ee7c25;
+}
+
+.thanks {
+  --color: #a86e2c;
+}
+
+.xmas {
+  --color: #4ba89c;
+}
+
+.atemp {
+  --color: #7fa8c9;
+}
+
 .pg-page {
   min-height: 100vh;
   font-family: 'Quicksand', sans-serif;
@@ -27,7 +53,7 @@
   line-height: 1.02;
   margin: 4px 0 10px;
   font-weight: 700;
-  color: #4a3a2a;
+  color: var(--color);
 }
 .pg-subtitle {
   font-family: var(--body);

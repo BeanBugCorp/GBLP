@@ -22,8 +22,8 @@ export default function Portafolio() {
       <div className="pg-page">
 
         <header className="pg-header">
-          <h1 className="pg-title">
-            <span style={{ color: season.accent }}>Mi portafolio</span>
+          <h1 className={`pg-title ${season.id}`}>
+            <span>Mi portafolio</span>
           </h1>
           <p className="pg-subtitle">
             Colecciones por temporada — escoge una para explorar.
