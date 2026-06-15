@@ -104,6 +104,9 @@
   opacity:0;pointer-events:none;
   transition:opacity .2s ease;
 }
+
+.contact-fab-item:hover {z-index: 2;}
+
 .contact-fab-item:hover .contact-fab-label{opacity:1;}
 
 /* ===== floating back-to-top button ===== */
