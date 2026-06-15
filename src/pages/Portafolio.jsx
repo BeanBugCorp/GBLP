@@ -52,7 +52,7 @@ export default function Portafolio() {
         </div>
 
         {/* key forces remount so the entrance animation replays on season change */}
-        <div key={season.id} className="pg-grid" style={{ "--season-accent": season.accent }}>
+        <div key={season.id} className={`pg-grid ${season.id}`}>
           {season.photos.map((src, i) => {
             const tilt = i % 3 === 0 ? -1.4 : i % 3 === 1 ? 1.2 : -0.5;
             return (
