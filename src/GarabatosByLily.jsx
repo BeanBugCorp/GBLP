@@ -129,8 +129,8 @@ function ServiceCard({ service, index, svcId }) {
   }, [n, index]);
 
   return (
-    <a href={`/servicios#section-${svcId}`} className="serv-card-link">
-      <article className="serv-card reveal" style={{ "--d": index }}>
+    <a href={`/servicios#section-${svcId}`} className="serv-card-link reveal">
+      <article className="serv-card reveal">
         <div className="serv-imgwrap">
           {service.images.map((src, idx) => (
             <LazyImage key = {idx} className = {idx === i ? "on" : "" } src = {src}

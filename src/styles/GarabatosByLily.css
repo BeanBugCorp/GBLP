@@ -102,6 +102,11 @@ html{scroll-behavior:smooth;}
   box-shadow:0 14px 30px -16px rgba(0,0,0,.32);
   transition:transform .3s ease,box-shadow .3s ease;
 }
+
+/* Only for direct childre, moved reveal to serv-card-link */
+.serv-grid > .serv-card-link.reveal:nth-child(2) { --d: 1; }
+.serv-grid > .serv-card-link.reveal:nth-child(3) { --d: 2; }
+
 .serv-card:hover{transform:translateY(-8px);box-shadow:0 26px 44px -20px rgba(239,92,33,.4);}
 .serv-imgwrap{position:relative;aspect-ratio:1/1;overflow:hidden;}
 .serv-imgwrap .lazy-wrapper {
