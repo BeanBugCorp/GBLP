@@ -46,7 +46,7 @@ export default function Portafolio() {
               </button>
             ))}
           </div>
-          <p key={season.id} className="pg-season-name" style={{ color: season.accent }}>
+          <p key={season.id} className={`pg-season-name ${season.id}`}>
             {season.name}
           </p>
         </div>

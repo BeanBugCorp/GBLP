@@ -126,6 +126,7 @@
   font-weight: 700;
   margin: 14px 0 0;
   animation: pg-nameIn 0.45s ease both;
+  color: var(--color);
 }
 @keyframes pg-nameIn {
   from { opacity: 0; transform: translateY(6px) rotate(-1.5deg); }
