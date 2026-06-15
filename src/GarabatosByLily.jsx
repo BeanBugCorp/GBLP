@@ -254,7 +254,6 @@ function Notas() {
             <a
               key={idx}
               className="nota-card reveal"
-              style={{ "--d": idx }}
               href={nota.url}
               target="_blank"
               rel="noopener noreferrer"
