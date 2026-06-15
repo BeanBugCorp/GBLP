@@ -217,14 +217,14 @@ function Colaboraciones() {
   const logos = [...CONTENT.colaboraciones, ...CONTENT.colaboraciones];
   return (
     <section className="section" id="colaboraciones">
-      <div className="wrap">
+      <div className="wrap colaboraciones">
         <div className="section-head reveal">
           <h2 className="script-h colaboraciones">
             Colaboraciones
           </h2>
         </div>
       </div>
-      <a href="/colaboraciones" aria-label="Ver colaboraciones" style={{ display: "block", textDecoration: "none" }}>
+      <a href="/colaboraciones" aria-label="Ver colaboraciones">
         <div className="marquee reveal">
           <div className="marquee-track">
             {logos.map((src, idx) => (
