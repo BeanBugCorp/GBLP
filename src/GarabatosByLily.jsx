@@ -160,7 +160,7 @@ function Servicios() {
       <img src={ssPink}   className="squiggle sq-2" alt="" aria-hidden="true" />
       <div className="wrap">
         <div className="section-head reveal">
-          <h2 className="script-h" style={{ color: "var(--azul)" }}>Servicios</h2>
+          <h2 className="script-h">Servicios</h2>
         </div>
         <div className="serv-grid">
           {CONTENT.servicios.map((s, idx) => (

@@ -36,6 +36,7 @@ html{scroll-behavior:smooth;}
 .script-h{
   font-family:var(--script);font-weight:700;line-height:.95;
   font-size:clamp(2.9rem,8.5vw,5.2rem);margin:0;
+  color: var(--azul);
 }
 
 /* ===== HERO ===== */
