@@ -138,6 +138,16 @@ html{scroll-behavior:smooth;}
 .gallery{display: grid;grid-template-columns:repeat(3,1fr);gap:3px;}
 @media (max-width:900px){.gallery{grid-template-columns:repeat(2,1fr);}}
 @media (max-width:540px){.gallery{grid-template-columns:1fr;max-width:430px;margin:0 auto;}}
+
+.gallery-fig:nth-child(2) { --d: 1; }
+.gallery-fig:nth-child(3) { --d: 2; }
+.gallery-fig:nth-child(4) { --d: 0; }
+.gallery-fig:nth-child(5) { --d: 1; }
+.gallery-fig:nth-child(6) { --d: 2; }
+.gallery-fig:nth-child(7) { --d: 0; }
+.gallery-fig:nth-child(8) { --d: 1; }
+.gallery-fig:nth-child(9) { --d: 2; }
+
 .gallery-fig{
     margin: 0;
     position: relative;

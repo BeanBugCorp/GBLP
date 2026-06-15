@@ -195,7 +195,6 @@ function Trabajo() {
             <figure
               key={idx}
               className="gallery-fig reveal"
-              style={{ "--d": idx % 3 }}
             >
               <LazyImage src = {item.src} alt = {item.title} />
               <figcaption className="gallery-cap">
