@@ -32,14 +32,7 @@ export default function Portafolio() {
 
         <div className="pg-slider-wrap">
           <div className="pg-slider">
-            <div
-              className="pg-pill"
-              style={{
-                width: `calc((100% - 12px) / ${PORTAFOLIO_SEASONS.length})`,
-                transform: `translateX(${active * 100}%)`,
-                background: season.accent,
-              }}
-            />
+            <div className={`pg-pill ${season.id} active-${active}`}/>
             {PORTAFOLIO_SEASONS.map((s, i) => (
               <button
                 key={s.id}
