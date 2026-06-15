@@ -39,7 +39,6 @@ export default function Portafolio() {
                 className="pg-seg"
                 onClick={() => setActive(i)}
                 aria-label={s.name}
-                style={{ color: i === active ? "#fff" : "#9a8b78" }}
               >
                 <span
                   className="pg-emoji"
