@@ -139,12 +139,11 @@ function ContactFab() {
       {items.map((item) => (
         <a
           key={item.label}
-          className="contact-fab-item"
+          className={`contact-fab-item contact-fab-item--${item.label}`}
           href={item.href}
           target="_blank"
           rel="noopener noreferrer"
           aria-label={item.label}
-          style={{ background: item.color, "--pos": item.pos }}
         >
           {item.icon}
           <span className="contact-fab-label">{item.label}</span>

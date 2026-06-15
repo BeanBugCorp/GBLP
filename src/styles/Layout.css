@@ -54,6 +54,27 @@
              box-shadow .28s ease, background .28s ease;
 }
 .contact-fab-btn:hover{transform:scale(1.09);background:var(--azul);}
+
+.contact-fab-item--Email {
+  --bg: #D44638;
+  --pos: translate(0px, -85px);
+}
+
+.contact-fab-item--WhatsApp {
+  --bg: #25D366;
+  --pos: translate(43px, -74px);
+}
+
+.contact-fab-item--Instagram {
+  --bg: #C13584;
+  --pos: translate(74px, -43px);
+}
+
+.contact-fab-item--TikTok {
+  --bg: #010101;
+  --pos: translate(85px, 0px);
+}
+
 .contact-fab-item{
   position:absolute;bottom:0;left:0;
   width:clamp(42px,10vw,50px);height:clamp(42px,10vw,50px);
@@ -62,6 +83,7 @@
   box-shadow:0 8px 20px -6px rgba(0,0,0,.38);
   transform:translate(0,0) scale(0);opacity:0;
   transition:transform .35s cubic-bezier(.34,1.56,.64,1), opacity .25s ease;
+  background: var(--bg);
 }
 .contact-fab.open .contact-fab-item{
   transform:var(--pos) scale(1);opacity:1;
