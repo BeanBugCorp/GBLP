@@ -190,7 +190,7 @@ export default function Layout({ children }) {
   }, []);
 
   return (
-    <div className="gbl-root">
+    <div role = "main" className="gbl-root">
       <SiteHeader />
       <NavBar />
       {children}
