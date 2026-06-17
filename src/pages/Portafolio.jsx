@@ -19,7 +19,7 @@ export default function Portafolio() {
 
   return (
     <Layout>
-      <div className="pg-page">
+      <main className="pg-page">
 
         <header className="pg-header">
           <h1 className={`pg-title ${season.id}`}>
@@ -71,7 +71,7 @@ export default function Portafolio() {
           })}
         </div>
 
-      </div>
+      </main>
 
       {lightbox && (
         <div className={`pg-backdrop ${season.id}`} onClick={closeLightbox}>
