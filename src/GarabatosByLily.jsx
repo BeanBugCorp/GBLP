@@ -282,12 +282,14 @@ function Notas() {
 export default function App() {
   return (
     <Layout>
-      <Hero />
-      <Bio />
-      <Servicios />
-      <Colaboraciones />
-      <Trabajo />
-      <Notas />
+      <main>
+        <Hero />
+        <Bio />
+        <Servicios />
+        <Colaboraciones />
+        <Trabajo />
+        <Notas />
+      </main>
     </Layout>
   );
 }
